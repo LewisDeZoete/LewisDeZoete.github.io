@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>90-MINUTE-MOVIES</title>
+		<title>Lewis de Zoete Grundy</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -24,14 +24,15 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>90-MINUTE-MOVIES</h1>
-								<p>Who's got the time to watch a two and a half hour epic on a weeknight?</p>
+								<h1>Lewis de Zoete Grundy</h1>
+								<p>Computer vision for human-robot interaction.</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
 
-								<li><a href="#MovieList">Movie List</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<!-- <li><a href="#CV">CV</a></li> -->
 								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -44,9 +45,9 @@
 
 
 
-						<!-- Movie List -->
-							<article id="MovieList">
-								<h2 class="MovieList">Movie List</h2>
+						<!-- Projects -->
+							<article id="projects">
+								<h2 class="projects">Projects</h2>
 								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
 								<table id= "userdata" border="2">
 									<thead>
@@ -59,21 +60,21 @@
 										 </tbody>
 									 </table>
 
-								<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
-								<script>
-								$(function() {
-								var films = [];
+								<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script> -->
+								<!-- <script> -->
+								<!-- $(function() { -->
+								<!-- var films = []; -->
 
-								$.getJSON('assets/list/list.json', function(data) {
-									$.each(data.film, function(i, f) {
-										var tblRow = "<tr>" + "<td>" + f.title + "</td>" + 
-											"<td>" + f.year + "</td>" +
-											"<td>" + f.desc + "</td>" + "</tr>"
-										$(tblRow).appendTo("#userdata tbody");
-									});
-								});
-								});
-								</script>
+								<!-- $.getJSON('assets/list/list.json', function(data) { -->
+								<!-- 	$.each(data.film, function(i, f) { -->
+								<!-- 		var tblRow = "<tr>" + "<td>" + f.title + "</td>" + -->
+								<!-- 			"<td>" + f.year + "</td>" + -->
+								<!-- 			"<td>" + f.desc + "</td>" + "</tr>" -->
+								<!-- 		$(tblRow).appendTo("#userdata tbody"); -->
+								<!-- 	}); -->
+								<!-- }); -->
+								<!-- }); -->
+								<!-- </script> -->
 							</article>
 
 						<!-- About -->
@@ -108,8 +109,7 @@
 									</ul>
 								</form>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
