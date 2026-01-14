@@ -1,0 +1,50 @@
+{
+    "legs": [
+        {
+            "exercise": "Bulgarian Split Squats",
+            "reps": "6-8 x 3",
+            "desc": "(Reps per leg x sets). With one leg raised and placed on the bench behind you and the other leg at a right angle in front of you, your arms at your sides, squat down until your arms nearly reach the floor. Hold weights in both hands to increase the weight."
+        },
+        {
+            "exercise": "Romanian Dead Lift",
+            "reps": "6-8 x 3",
+            "desc": "Knees slightly bent, lean forward with dumbbells close to shins. You will feel the exercise in your hamstrings."
+        }
+    ],
+    "push": [
+        {
+            "exercise": "Incline Barbell Press 20°",
+            "reps": "6-8 x 3",
+            "desc": "With bench back at a 20° incline, press barbell (optionally dumbbell) away from your body, focusing on squeezing your chest at the top of the press."
+        },
+        {
+            "exercise": "Seated Dumbbell Shoulder Press",
+            "reps": "6-12 x 3",
+            "desc": "With bench back rest at a 90° angle, sit straight up, starting with shoulders at right angles to the torso and press dumbbells straight up."
+        }
+    ],
+    "pull": [
+        {
+            "exercise": "Incline Dumbbell Curl 65°",
+            "reps": "6-8 x 3",
+            "desc": "Arms begin the exercise perpendicular to the floor, with dumbbells pointed forward, curl arms up twisting forearms as you go to finish with hands facing you."
+        },
+        {
+            "exercise": "Pendley Dumbbell Row",
+            "reps": "8-12 x 3",
+            "desc": "Lean forward, hands facing behind you, pull dumbbells up so they finish in line with the chest, focusing on pinching your shoulder blades together at the top of the exercise."
+        }
+    ],
+    "knees": [
+        {
+            "exercise": "Clock Single Leg Squats",
+            "reps": "3 sets per leg (6 angles)",
+            "desc": "Standing on one leg, with your other leg pointed forward (12 O'Clock), squat with as far as you can go. Perform 3-5 squats, then repeat for your leg pointed at 1:30, 3, 4:30, 6 and finishing at 7:30."
+        },
+        {
+            "exercise": "Jumping Squats",
+            "reps": "5 x 6",
+            "desc": "Jump as high as you can go, then when you land, squat as low as you can. Perform five jumps for six sets, resting for a minute or so between each set"
+        }
+    ]
+}
