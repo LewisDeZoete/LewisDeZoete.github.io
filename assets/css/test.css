@@ -1,0 +1,72 @@
+/*
+#b14f34, #9f6356, #8a7374, #6f8190, #468cab
+*/
+
+:root {
+    --primary: #b14f34;
+    --secondary: #468cab;
+    --mid1: #9f6356;
+    --mid2: #8a7374;
+    --mid3: #6f8190;
+}
+
+
+body {
+    background: var(--primary);
+    /* background: radial-gradient(circle, var(--primary) 0%, var(--secondary) 100%); */
+}
+
+div {
+    text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* ---------- NAV ---------- */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;  
+  background: var(--mid3);
+  padding: 1rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item.active {
+  background-color: #4CAF50;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: white;
+}

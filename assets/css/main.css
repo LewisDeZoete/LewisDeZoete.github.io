@@ -1192,12 +1192,16 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		-moz-justify-content: space-between;
+		/* -moz-justify-content: space-between; */
+		-moz-justify-content: flex-start;
 		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
-		justify-content: space-between;
+		/* -ms-justify-content: space-between; */
+		-ms-justify-content: flex-start;
+		/* justify-content: space-between; */
+		justify-content: flex-start;
 		position: relative;
-		min-height: 100vh;
+		/* min-height: 100vh; */
+		min-height: auto;
 		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;

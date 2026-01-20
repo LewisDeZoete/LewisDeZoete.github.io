@@ -1,0 +1,44 @@
+/* ---------- FULLSCREEN ARTICLE ---------- */
+
+.fullscreen-article {
+  position: fixed;
+  top: 64px;        /* height of nav */
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: white;
+  padding: 2rem;
+  overflow-y: auto;
+
+  display: none;
+  z-index: 10;      /* below nav */
+}
+
+/* Open when targeted */
+.fullscreen-article:target {
+  display: block;
+}
+
+/* Readability */
+.fullscreen-article h1,
+.fullscreen-article p {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fullscreen-article p {
+  line-height: 1.6;
+}
+
+/* ---------- CLOSE BUTTON ---------- */
+
+.close {
+  position: fixed;
+  top: 80px;
+  right: 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
