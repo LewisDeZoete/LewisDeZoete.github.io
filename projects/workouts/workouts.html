@@ -5,18 +5,18 @@
 
   <title>Workout Schedule</title>
 
-  <link rel="stylesheet" href="/assets/css/test.css">
-  <link rel="stylesheet" href="/assets/css/articles.css">
+  <!-- <link rel="stylesheet" href="/assets/css/test.css"> -->
+  <!-- <link rel="stylesheet" href="/assets/css/articles.css"> -->
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <!-- Body -->
 <body class="projects-workouts">
-<!-- <\!-- Nav bar -\-> -->
+<!-- Nav bar  -->
 <div id="nav"></div>
 
 <!-- Main content page -->
-<!-- <main style="padding: 2rem;"> -->
-<main>
+<main class="page">
   <h1>WORKOUT TIME</h1>
 
   <p><a href="#legs">LEGS</a><br></p>
@@ -31,11 +31,15 @@
   <a href="#" class="close">&times;</a>
   <h2>Leg Day</h2>
   <table class="exercise-table" data-group="legs">
+    <colgroup>
+      <col class="exercise" />
+      <col class="reps" />
+    </colgroup>
     <thead>
       <tr>
         <th>Exercise</th>
-        <th>Reps</th>
-        <th>Description</th>
+        <th>Reps x Sets</th>
+        <ht></th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -47,11 +51,15 @@
   <a href="#" class="close">&times;</a>
   <h2>Push</h2>
   <table class="exercise-table" data-group="push">
+    <colgroup>
+      <col class="exercise" />
+      <col class="reps" />
+    </colgroup>
     <thead>
       <tr>
         <th>Exercise</th>
         <th>Reps</th>
-        <th>Description</th>
+        <ht></th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -63,11 +71,15 @@
   <a href="#" class="close">&times;</a>
   <h2>Pull</h2>
   <table class="exercise-table" data-group="pull">
+    <colgroup>
+      <col class="exercise" />
+      <col class="reps" />
+    </colgroup>
     <thead>
       <tr>
         <th>Exercise</th>
         <th>Reps</th>
-        <th>Description</th>
+        <ht></th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -79,11 +91,15 @@
   <a href="#" class="close">&times;</a>
   <h2>Knee Recovery and Strengthening</h2>
   <table class="exercise-table" data-group="knees">
+    <colgroup>
+      <col class="exercise" />
+      <col class="reps" />
+    </colgroup>
     <thead>
       <tr>
         <th>Exercise</th>
         <th>Reps</th>
-        <th>Description</th>
+        <ht></th>
       </tr>
     </thead>
     <tbody></tbody>
@@ -92,7 +108,9 @@
 
 <!-- SCRIPTS -->
 <script src="/assets/js/nav.js"></script>
+<!-- Get data from workout_data.json and inject it! -->
 <script src="/assets/js/exercise_tables.js"></script>
+<!-- Nice way for articles to take up the full screen when clicked -->
 <script src="/assets/js/articles.js"></script>
 </body>
 </html>

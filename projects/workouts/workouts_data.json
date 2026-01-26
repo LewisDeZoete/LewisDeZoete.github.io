@@ -3,17 +3,20 @@
         {
             "exercise": "Bulgarian Split Squats",
             "reps": "6-8 x 3",
-            "desc": "(Reps per leg x sets). Place one foot behind you on a bench, step the other foot forward, then lower your hips until the front thigh is parallel to the ground. Works quads, glutes, and hamstrings. Focus on keeping the front knee aligned with your toes."
+            "desc": "(Reps per leg x sets). Place one foot behind you on a bench, step the other foot forward, then lower your hips until the front thigh is parallel to the ground. Works quads, glutes, and hamstrings. Focus on keeping the front knee aligned with your toes.",
+            "image": "legs/bulgarian_split_squats.webp"
         },
         {
             "exercise": "Romanian Dead Lift",
             "reps": "6-8 x 3",
-            "desc": "Stand with feet hip-width apart, barbell or dumbbells in hands. Hinge at the hips while keeping a slight bend in the knees, lowering the weight along your legs. Strengthens hamstrings, glutes, and lower back. Keep your spine neutral."
+            "desc": "Stand with feet hip-width apart, barbell or dumbbells in hands. Hinge at the hips while keeping a slight bend in the knees, lowering the weight along your legs. Strengthens hamstrings, glutes, and lower back. Keep your spine neutral.",
+            "image": "legs/romanian_deadlift.jpg"
         },
         {
             "exercise": "Leg Extension",
             "reps": "10-12 x 3",
-            "desc": "Sit on a leg extension machine and extend your legs until straight, then lower slowly. Isolates the quadriceps. Control the weight to avoid knee strain."
+            "desc": "Sit on a leg extension machine and extend your legs until straight, then lower slowly. Isolates the quadriceps. Control the weight to avoid knee strain.",
+            "image": "legs/leg_extension.jpg"
         },
         {
             "exercise": "Glute Bridges",
