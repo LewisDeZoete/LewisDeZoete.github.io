@@ -42,3 +42,57 @@
   text-decoration: none;
   color: black;
 }
+
+
+/* ---------- EXERCISE TABLES ---------- */
+
+.exercise-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.exercise-table th,
+.exercise-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.exercise-table thead th {
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Main rows */
+.exercise-table .main-row {
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.exercise-table .main-row:hover {
+  background: #f5f5f5;
+}
+
+.exercise-table col.exercise {
+  width: 65%
+}
+
+.exercise-table col.reps {
+  width: 35%
+}
+
+/* Detail rows */
+.exercise-table .detail-row {
+  display: none;
+  background: #fafafa;
+}
+
+.exercise-table .detail-row td {
+  font-size: 0.95rem;
+  color: #444;
+}
+
