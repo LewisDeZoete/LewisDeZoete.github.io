@@ -188,6 +188,7 @@ ul {
   font-weight: 600;
   color: #333;
   border-bottom: 2px solid #ccc;
+  font-size: 30;
 }
 
 /* ---------- MAIN ROWS ---------- */
@@ -203,11 +204,13 @@ ul {
 
 .fullscreen-article .exercise-table .main-row td:first-child {
   font-weight: 500;
+  font-size: 25;
 }
 
 .fullscreen-article .exercise-table .main-row td:last-child {
   text-align: right;
   white-space: nowrap;
+  font-size: 25;
   color: #555;
 }
 
