@@ -23,7 +23,7 @@ fetch("workouts_data.json")
         detailRow.classList.add("detail-row");
         detailRow.id = id;
         detailRow.innerHTML = `
-          <td colspan="1">${item.desc}</td>
+          <td>${item.desc}</td>
           <td>
             <img
               src="/assets/workout_imgs/${item.image}"
@@ -36,21 +36,26 @@ fetch("workouts_data.json")
         tbody.appendChild(mainRow);
         tbody.appendChild(detailRow);
       });
-    });
 
-    // Click handling (after rows exist)
-    document.querySelectorAll(".main-row").forEach(row => {
-      row.addEventListener("click", () => {
-        const detailRow = document.getElementById(row.dataset.target);
+      // Toggle behavior scoped per table
+      table.querySelectorAll(".main-row").forEach(row => {
+        row.addEventListener("click", () => {
+          const detailRow = table.querySelector(
+            `#${row.dataset.target}`
+          );
 
-        // Optional: close others in the same table
-        const table = row.closest("table");
-        table.querySelectorAll(".detail-row").forEach(r => {
-          if (r !== detailRow) r.style.display = "none";
+          table.querySelectorAll(".detail-row").forEach(r => {
+            if (r !== detailRow) r.style.display = "none";
+          });
+
+          table.querySelectorAll(".main-row").forEach(r => {
+            if (r !== row) r.classList.remove("open");
+          });
+
+          const isOpen = detailRow.style.display === "table-row";
+          detailRow.style.display = isOpen ? "none" : "table-row";
+          row.classList.toggle("open", !isOpen);
         });
-
-        detailRow.style.display =
-          detailRow.style.display === "table-row" ? "none" : "table-row";
       });
     });
   })

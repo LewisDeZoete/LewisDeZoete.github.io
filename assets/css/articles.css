@@ -96,3 +96,37 @@
   color: #444;
 }
 
+
+
+/* ---------- RECIPE ARTICLES ---------- */
+.ingredients-list {
+    columns: 2;           /* two columns */
+    column-gap: 2rem;     /* space between columns */
+    list-style-type: disc; /* bullet points */
+    padding-left: 1rem;    /* indentation for bullets */
+}
+
+.ingredients-list li {
+    margin-bottom: 0.5rem;
+}
+
+.macros-list {
+    display: flex;       /* inline items */
+    gap: 0.5rem;         /* space between items */
+    list-style: none;    /* remove bullets */
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.macros-list li {
+    position: relative;
+    padding: 0 0.5rem;
+}
+
+.macros-list li:not(:last-child)::after {
+    content: "|";        /* pipe separator */
+    position: absolute;
+    right: -0.5rem;      /* adjust spacing */
+    color: #888;         /* lighter color for separator */
+}

@@ -44,6 +44,13 @@
             "desc": "With a barbell across your shoulders, hinge forward at the hips, keeping your back flat. Return upright. Strengthens hamstrings, glutes, and lower back. Avoid rounding your spine."
         }
     ],
+    "legs_stretches": [
+        {
+            "exercise": "Standing Quad Stretch",
+            "reps": "30s x 2",
+            "desc": "Stand on one leg, pull the other heel toward your glutes."
+        }
+    ],
     "push": [
         {
             "exercise": "Incline Barbell Press 20°",

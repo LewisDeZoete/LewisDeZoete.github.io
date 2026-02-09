@@ -18,6 +18,12 @@ Palette
 /* ================================
    BASE / GLOBAL
 ================================ */
+/* body { */
+/*   max-width: 700px; */
+/*   margin: 2rem auto; */
+/*   padding: 0 1rem; */
+/*   line-height: 1.6; */
+/* } */
 
 body {
   margin: 0;
@@ -36,6 +42,14 @@ img {
 /* Avoid global centering */
 div {
   text-align: inherit;
+}
+
+h1, h2 {
+  margin-top: 2rem;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
 }
 
 /* ================================
@@ -104,6 +118,30 @@ ul {
 .nav a.active {
   background: var(--secondary);
   color: white;
+}
+
+/* ================================
+   ALL TABLES
+================================ */
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+table th,
+table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+table thead th {
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #ccc;
 }
 
 /* ================================
@@ -241,4 +279,56 @@ ul {
 
 .fullscreen-article .exercise-table .main-row.open {
   background: #eee;
+}
+
+/* ================================
+   RECIPE STYLING OVERRIDES
+================================ */
+
+.ingredients-list {
+    display: block;           /* single column */
+    list-style-type: disc;    /* bullet points */
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.ingredients-list li {
+    margin-bottom: 0.3rem;
+}
+
+.ingredients-sections h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    /* color: var(--primary); */
+    font-size: 1.05rem;
+}
+
+ul.ingredients-sections {
+  display: block;
+}
+
+ol.ingredients-sections {
+  padding-left: 0.5rem;
+}
+
+.macros-list {
+    display: flex !important;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+.macros-list li {
+    position: relative;
+    padding: 0 0.5rem;
+}
+
+.macros-list li:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: -0.5rem;
+    color: #888;
 }

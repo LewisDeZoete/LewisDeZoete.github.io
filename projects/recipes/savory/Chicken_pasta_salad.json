@@ -1,0 +1,64 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "2 cups cooked pasta (400g)",
+                    "2 cups cooked chicken breast (300g)",
+                    "1 cup spinach, roughly chopped (30g)",
+                    "1 Lebanese cucumber, diced",
+                    "1½ cherry tomatoes, halved (250g)",
+                    "½ cup sun-dried tomatoes, chopped (230g)",
+                    "½ red onion, finely diced",
+                    "½ cup parsley leaves, chopped",
+                    "½ cup feta, crumbled",
+                    "sea salt and cracked pepper to taste"
+                ]
+            },
+            {
+                "section": "Creamy dill sauce",
+                "items": [
+                    "½ cup Greek yoghurt (125g)",
+                    "1 tsp onion powder",
+                    "¼ cup fresh dill, finely chopped",
+                    "1 tsp finely chopped garlic",
+                    "2 Tbsp apple cider vinegar",
+                    "1 Tbsp EVOO"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "In a large bowl, combine the cooked pasta, chicken, spinach, cucumber, cherry tomatoes, sun-dried tomatoes, red onion, parsley, and feta. Season with sea salt and cracked black pepper. Toss gently to combine.",
+                    "In a small bowl or jug, whisk together the Greek yoghurt, onion powder, dill, garlic, vinegar, and olive oil. If the dressing is too thick, thin it by adding a teaspoon of water at a time until you reach the desired consistency. Taste and adjust seasoning if needed.",
+                    "When you’re ready to serve, pour the dressing over the salad and toss gently to coat all ingredients evenly. Serve immediately. If you’re preparing it ahead, keep the dressing separate (see notes)."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "To cook chicken, preheat oven to 200°C, pound chicken to 1.5cm thick and season. Cook for 15-18 minutes until internal temp is 75°C."
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Chicken pasta salad with creamy dill dressing",
+            "intro": "A quick weeknight meal that stores well. Buying double the required recipe ingredients is easy, and they store well, so just grab some extra chicken when you're ready to make this recipe again!",
+            "vego": false,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "1 hour",
+            "cook_time": "15 minutes"
+        }
+}

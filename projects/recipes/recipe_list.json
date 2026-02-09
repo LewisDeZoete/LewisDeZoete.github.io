@@ -1,0 +1,14 @@
+{
+    "sweet": [
+        {
+            "recipe_title": "Chocolate blackbean brownies",
+            "recipe_filename": "Choc_brownies.json"
+        }
+    ],
+    "savory": [
+        {
+            "recipe_title": "Chicken pasta salad With creamy dill dressing",
+            "recipe_filename": "Chicken_pasta_salad.json"
+        }
+    ]
+}

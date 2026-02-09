@@ -1,0 +1,51 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "400g can black beans",
+                    "2 large eggs",
+                    "2 bananas (200g)",
+                    "3 Tbsp maple syrup",
+                    "15g cocoa powder",
+                    "60g protein powder (2 scoops)",
+                    "1 tsp baking powder",
+                    "pinch of salt"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                        "Preheat the oven to 180°C.",
+                        "Line a 25cm x 15cm tin with parchment paper.",
+                        "Add beans and banana to a bowl and blitz with stick blender.",
+                        "Add all ingredients into a bowl and mix well with a fork or spoon.",
+                        "Pour ingredients into lined tin and place in preheated oven.",
+                        "Bake at 180° for 15 minutes.",
+                        "Rest for 15 minutes to cool in tin, then place on wire rack (parchment underneath) and cool for at least 45 minutes."
+                    ]
+            }
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Chocolate blackbean brownies",
+            "intro": "Easy and tasy, relatively healthy chocolate blackbean brownies - you can hardly taste the beans!",
+            "vego": true,
+            "vegan": false,
+            "serves": 9,
+            "prep_time": "1/2 hours",
+            "cook_time": "15 minutes"
+        }
+}

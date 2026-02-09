@@ -1,0 +1,46 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "2 cups cooked pasta (400g)",
+                    "sea salt and cracked pepper to taste"
+                ]
+            },
+            {
+                "section": "Creamy sauce",
+                "items": [
+                    "1 tsp finely chopped garlic",
+                    "2 Tbsp apple cider vinegar"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            "Step 1.",
+            "Step 2."
+        ],
+    "notes":
+        [
+            "A side note - TODO: a way to add these notes as footers within the instructions."
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Recipe title",
+            "intro": "A quick meal",
+            "vego": true,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "1 hour",
+            "cook_time": "15 minutes"
+        }
+}
