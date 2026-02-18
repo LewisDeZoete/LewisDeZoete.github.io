@@ -1,0 +1,81 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "2 servings of ramen noodles, cooked (~300g)"
+                ]
+            },
+            {
+                "section": "Sauce",
+                "items": [
+                    "4 tsp sesame oil",
+                    "2 Tbsp oyster sauce",
+                    "1½ tsp mushroom stock powder/bone broth",
+                    "2 Tbsp peanut butter",
+                    "2 Tbsp soy sauce",
+                    "1 Tbsp rice vinegar",
+                    "3 tsp dobanjiang"
+                ]
+            },
+            {
+                "section": "Suggestested toppings",
+                "items": [
+                    "green onions, sliced",
+                    "bok choy",
+                    "shiitake mushrooms, sliced",
+                    "green beans",
+                    "fried egg",
+                    "crispy tofu pieces"
+
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Ramen noodes (two bundles)",
+                    "Sesame oil",
+                    "Oyster sauce",
+                    "Mushroom stock",
+                    "Peanut butter",
+                    "Dobanjiang"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "Combine sauce ingredients in the serving bowl and stir to combine.",
+                    "Cook topping ingredients (if necessary) and set aside.",
+                    "Cook noodles according to packet directions.",
+                    "Add noodles and toppings to mix into serving bowl with sauce and toss to combine. Garnish with spring onions."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "Any style of noodles can be used for this recipe: Chinese style noodles, udon noodles etc."
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Abura soba",
+            "intro": "Brothless ramen, a quick weeknight meal that is completely customisable to what you have in the fridge - but at least pick up some noodles...",
+            "vego": true,
+            "vegan": false,
+            "serves": 2,
+            "prep_time": "20 minutes",
+            "cook_time": "15 minutes",
+            "reference": "https://www.okonomikitchen.com/vegan-abura-soba/"
+        }
+}

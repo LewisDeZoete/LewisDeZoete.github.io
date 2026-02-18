@@ -9,9 +9,19 @@
                     "2 bananas (200g)",
                     "3 Tbsp maple syrup",
                     "15g cocoa powder",
+                    "2 Tbsp shredded coconut",
                     "60g protein powder (2 scoops)",
                     "1 tsp baking powder",
                     "pinch of salt"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Black beans",
+                    "Bananas",
+                    "Eggs",
+                    "Protein powder"
                 ]
             }
         ],
@@ -46,6 +56,7 @@
             "vegan": false,
             "serves": 9,
             "prep_time": "1/2 hours",
-            "cook_time": "15 minutes"
+            "cook_time": "20 minutes",
+            "reference": "https://www.onecleverchef.com/black-bean-protein-brownies/"
         }
 }

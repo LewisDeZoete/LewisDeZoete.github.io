@@ -1,0 +1,67 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "Flank steak, thinly sliced against the grain (450g)",
+                    "1 small head green cabbage, cored and shredded",
+                    "3 Tbsp toased sesame oil",
+                    "2 Tbsp soy sauce",
+                    "1 Tbsp rice vinegar",
+                    "1 tsp grated ginger",
+                    "2 cloves garlic, minced",
+                    "1 Tbsp sesame seeds",
+                    "2 Tbsp neutral oil",
+                    "Black or white pepper to taste"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Flank steak",
+                    "Cabbage"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "In a medium bowl, combine the thinly sliced flank steak with 1 tbsp toasted sesame oil, soy sauce, rice vinegar, grated ginger, minced garlic, and black pepper. Toss thoroughly to coat and marinate for 10 minutes at room temperature.",
+                    "Heat 2 tbsp neutral oil in a large wok or skillet over high heat until shimmering, about 1 minute.",
+                    "Add the marinated beef in a single layer, searing undisturbed for 2 minutes to develop a caramelized crust.",
+                    "Flip the beef slices and cook for an additional 1 minute until just cooked through, then transfer to a clean plate.",
+                    "Reduce heat to medium-high and add the shredded cabbage to the same pan. Stir-fry for 4–5 minutes, until the cabbage is tender-crisp and lightly charred at the edges.",
+                    "Return the seared beef and any accumulated juices to the pan with the cabbage.",
+                    "Drizzle the remaining 2 tbsp toasted sesame oil over the stir-fry and toss to combine evenly.",
+                    "Remove from heat and sprinkle with sesame seeds."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "Avoid overcrowding the pan to ensure proper browning.",
+            "Toasting the sesame seeds in a dry pan for 1–2 minutes beforehand enhances their nutty aroma."
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Beef and cabbage stir-fry with sesame",
+            "intro": "A quick beef stir-fry for a weeknight meal.",
+            "vego": false,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "15 minutes",
+            "cook_time": "10 minutes",
+            "reference": "https://musteatfood.com/healthy-beef-recipes/"
+        }
+}

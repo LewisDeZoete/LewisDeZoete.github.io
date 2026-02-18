@@ -14,12 +14,37 @@
                     "1 tsp finely chopped garlic",
                     "2 Tbsp apple cider vinegar"
                 ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Flagship ingredients",
+                    "Only show up on the recipe homepage"
+                ]
             }
         ],
     "instructions":
         [
-            "Step 1.",
-            "Step 2."
+            {
+                "section": "Preheat",
+                "steps": [
+                    "TODO: parse preheat section -Preheat oven to 1000°C"
+                ]
+            },
+            {
+                "section": "",
+                "steps": [
+                    "Main steps 1.",
+                    "Main steps 2."
+                ]
+            },
+            {
+                "section": "Sauce",
+                "steps": [
+                    "Sauce step 1.",
+                    "Sauce step 2."
+                ]
+            }
         ],
     "notes":
         [
@@ -41,6 +66,7 @@
             "vegan": false,
             "serves": 4,
             "prep_time": "1 hour",
-            "cook_time": "15 minutes"
+            "cook_time": "15 minutes",
+            "reference": "https://www.google.com"
         }
 }

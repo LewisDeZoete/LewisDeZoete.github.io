@@ -1,0 +1,65 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "7 medium potatoes, cubed",
+                    "½ cup fresh lemon juice (about 2½ lemons)",
+                    "⅓ cup vegetable oil",
+                    "1 Tbsp EVOO",
+                    "2-4 garlic cloves, crushed",
+                    "2 tsp salt",
+                    "½ tsp pepper",
+                    "2 cups hot water"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Potatoes",
+                    "Lemon juice"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "Main steps 1.",
+                    "Main steps 2."
+                ]
+            },
+            {
+                "section": "Sauce",
+                "steps": [
+                    "Sauce step 1.",
+                    "Sauce step 2."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "Shortcut: Gently par-cook the potatoes in a pan with the lemon juice, oil, water etc (less water than recipe calls for, just enough to cover potatoes) until they just start to yield to the fork. Take them off the stove and leave them sitting in the pan with the liquid until you are ready to throw them in a hot oven. Cook until they are crisp and golden."
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Greek potatoes",
+            "intro": "I usually make these in double quantities and cook in two pans, because there never seem to be enough to go around. On the rare occasion that any are left over, they’re delicious eaten cold or tossed through a green salad like croutons. The original Moosewood cookbook recipe suggested including 1½ teaspoons dried oregano, but I never do, although this would make it more traditionally Greek. They’re also good with crumbled feta and chopped parsley added at the end. You can reduce the volume of oil if you are careful not to let it stick towards the end of cooking time.",
+            "vego": true,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "1 hour",
+            "cook_time": "15 minutes",
+            "reference": "https://www.google.com"
+        }
+}

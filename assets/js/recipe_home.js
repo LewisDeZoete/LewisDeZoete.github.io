@@ -12,6 +12,7 @@ async function get_all_recipes() {
 
         for (let index = 0; index < data[recipe_type].length; index++) {
             const item = data[recipe_type][index];
+            console.log("Recipe type: ", recipe_type, "Recipe filename:", item.recipe_filename)
 
             // Fetch ingredients for preview
             const ingredients = await get_recipe_info(
@@ -43,16 +44,35 @@ async function get_all_recipes() {
 }
 
 // Fetch a single recipe’s ingredients
+// async function get_recipe_info(recipe_type, recipe_filename) {
+//     const res = await fetch(`/projects/recipes/${recipe_type}/${recipe_filename}`);
+//     const data = await res.json();
+//     const ingredients = [];
+//     data.ingredients.forEach(section => {
+//         console.log("Section name:", section.section, "Length:", section.section.length);
+//         if (section.section.trim() === "key_ingredients") {
+//             section.items.forEach(ingred => {
+//                 ingredients.push(ingred)
+//             })
+//         }
+//     })
+//     return ingredients
+// }
 async function get_recipe_info(recipe_type, recipe_filename) {
-    const res = await fetch(`/projects/recipes/${recipe_type}/${recipe_filename}`);
-    const data = await res.json();
-    const ingredients = [];
-    data.ingredients.forEach(section => {
-        section.items.forEach(ingred => {
-            ingredients.push(ingred)
-        })
-    })
-    return ingredients
+    try {
+        const res = await fetch(`/projects/recipes/${recipe_type}/${recipe_filename}`);
+        const data = await res.json();
+
+        // 1. Find the specific section object
+        const keySection = data.ingredients.find(s => s.section.trim() === "key_ingredients");
+
+        // 2. Return the items if found, otherwise return an empty array
+        return keySection ? keySection.items : [];
+
+    } catch (error) {
+        console.error("Error fetching recipe:", error);
+        return [];
+    }
 }
 
 // Run once the DOM is ready

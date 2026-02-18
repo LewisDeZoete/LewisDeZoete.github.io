@@ -9,6 +9,14 @@
         {
             "recipe_title": "Chicken pasta salad With creamy dill dressing",
             "recipe_filename": "Chicken_pasta_salad.json"
+        },
+        {
+            "recipe_title": "Abura soba (brothless ramen)",
+            "recipe_filename": "Abura_soba.json"
+        },
+        {
+            "recipe_title": "Beef and Cabbage Stir-Fry with Sesame",
+            "recipe_filename": "Beef_cabbage_stir-fry.json"
         }
     ]
 }

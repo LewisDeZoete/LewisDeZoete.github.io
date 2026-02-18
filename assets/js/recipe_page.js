@@ -40,6 +40,7 @@ async function loadRecipe(recipe_type, recipe_filename) {
 
     // Loop through sections
     recipe.ingredients.forEach(section => {
+        if (section.section == "key_ingredients") return;
         // Only render a heading if section is non-empty
         if (section.section) {
             const sectionTitle = document.createElement("h3");
