@@ -4,7 +4,9 @@
             {
                 "section": "",
                 "items": [
-                    "Flank steak, thinly sliced against the grain (450g)",
+                    "Kangaroo, cut into strips or diced (450g)",
+                    "1 capsicum (red or yellow), cut into strips",
+                    "1 head of broccoli, cut into small florets",
                     "1 small head green cabbage, cored and shredded",
                     "3 Tbsp toased sesame oil",
                     "2 Tbsp soy sauce",
@@ -20,6 +22,8 @@
                 "section": "key_ingredients",
                 "items": [
                     "Flank steak",
+                    "Capsicum",
+                    "Broccoli",
                     "Cabbage"
                 ]
             }
@@ -29,12 +33,13 @@
             {
                 "section": "",
                 "steps": [
-                    "In a medium bowl, combine the thinly sliced flank steak with 1 tbsp toasted sesame oil, soy sauce, rice vinegar, grated ginger, minced garlic, and black pepper. Toss thoroughly to coat and marinate for 10 minutes at room temperature.",
+                    "In a medium bowl, combine the kangaroo with 1 tbsp toasted sesame oil, soy sauce, rice vinegar, grated ginger, minced garlic, and black pepper. Toss thoroughly to coat and marinate for 10 minutes at room temperature.",
                     "Heat 2 tbsp neutral oil in a large wok or skillet over high heat until shimmering, about 1 minute.",
-                    "Add the marinated beef in a single layer, searing undisturbed for 2 minutes to develop a caramelized crust.",
-                    "Flip the beef slices and cook for an additional 1 minute until just cooked through, then transfer to a clean plate.",
+                    "Add the marinated kangaroo in a single layer, searing undisturbed for 2 minutes to develop a caramelized crust.",
+                    "Flip the kangaroo slices and cook for an additional 1 minute until just cooked through, then transfer to a clean plate.",
+                    "Without cleaning the pan, toss in capsicum and broccoli and cook for about 5 minutes, until it begins to soften and char slightly.",
                     "Reduce heat to medium-high and add the shredded cabbage to the same pan. Stir-fry for 4–5 minutes, until the cabbage is tender-crisp and lightly charred at the edges.",
-                    "Return the seared beef and any accumulated juices to the pan with the cabbage.",
+                    "Return the seared kangaroo and any accumulated juices to the pan with the cabbage.",
                     "Drizzle the remaining 2 tbsp toasted sesame oil over the stir-fry and toss to combine evenly.",
                     "Remove from heat and sprinkle with sesame seeds."
                 ]
@@ -42,7 +47,7 @@
         ],
     "notes":
         [
-            "Avoid overcrowding the pan to ensure proper browning.",
+            "Avoid overcrowding the pan while cooking the protein, to ensure proper browning.",
             "Toasting the sesame seeds in a dry pan for 1–2 minutes beforehand enhances their nutty aroma."
         ],
     "macros":
@@ -55,8 +60,8 @@
         },
     "recipe_info":
         {
-            "title": "Beef and cabbage stir-fry with sesame",
-            "intro": "A quick beef stir-fry for a weeknight meal.",
+            "title": "Kangaroo and cabbage stir-fry with sesame",
+            "intro": "A quick kangaroo stir-fry for a weeknight meal. This was adapted from an online beef stir-fry recipe, but works well for kangaroo!",
             "vego": false,
             "vegan": false,
             "serves": 4,
