@@ -52,6 +52,17 @@ ul, ol {
   padding-left: 1.5rem;
 }
 
+/* ---------- Remove default hyperlink looks ---------- */
+/* Remove default link styling everywhere */
+a {
+  text-decoration: none;
+  color: inherit; /* inherit text color from parent */
+}
+
+a:visited {
+  color: inherit; /* prevent purple visited links */
+}
+
 /* ================================
    PAGE LAYOUT WRAPPER (global content cutter)
 ================================ */
