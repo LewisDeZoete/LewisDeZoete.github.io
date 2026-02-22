@@ -1,0 +1,99 @@
+:root {
+  --primary: #b14f34;
+  --secondary: #468cab;
+  --mid1: #9f6356;
+  --mid2: #8a7374;
+  --mid3: #6f8190;
+
+  --bg: #f7f7f7;
+  --text: #2e2e2e;
+  --border: rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Floating Pill Navbar ===== */
+
+.nav {
+  position: sticky;
+  top: 1.75rem;              /* space from top */
+  z-index: 100;
+
+  display: flex;
+  justify-content: center;   /* center the pill */
+}
+
+/* The floating pill container */
+.nav-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  padding: 0.9rem 2.25rem;
+
+  background: var(--mid3);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-radius: 999px;
+
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.2),
+    0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Remove default list styles */
+.nav-inner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 1.75rem;
+}
+
+/* Links */
+.nav-item a {
+  position: relative;
+
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+
+  text-decoration: none;
+  color: var(--primary);
+
+  padding: 0.4rem 0;
+  transition: color 0.2s ease, transform 0.15s ease;
+}
+
+/* Subtle hover */
+.nav-item a:hover {
+  color: white;
+  transform: translateY(-1px);
+}
+
+/* Animated underline */
+.nav-item a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+
+  width: 0%;
+  height: 3px;
+
+  background: var(--primary);
+  border-radius: 2px;
+
+  transition: width 0.25s ease;
+}
+
+.nav-item a:hover::after,
+.nav-item.active a::after,
+.nav-item a.active::after {
+  width: 100%;
+}
+
+/* Optional: Slight scale on hover */
+.nav-item a:hover {
+  transform: translateY(-1px);
+}

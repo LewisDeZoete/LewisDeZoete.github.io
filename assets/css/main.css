@@ -78,58 +78,8 @@ a:visited {
 }
 
 /* ================================
-   NAVIGATION
+   NAVIGATION - handled by nav.css
 ================================ */
-
-.nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-
-  background: var(--mid3);
-  padding: 0.75rem 1.5rem;
-
-  display: flex;
-  gap: 1.25rem;
-  align-items: center;
-
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  gap: 0.5rem;
-}
-
-.nav-item {
-  float: none;
-}
-
-.nav-item a {
-  display: block;
-  padding: 0.5rem 0.75rem;
-
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-
-  border-radius: 6px;
-  transition: background 0.15s ease, color 0.15s ease;
-}
-
-.nav-item a:hover {
-  background: rgba(255, 255, 255, 0.15);
-}
-
-.nav-item.active a,
-.nav a.active {
-  background: var(--secondary);
-  color: white;
-}
 
 /* ================================
    ALL TABLES
