@@ -14,19 +14,15 @@
 
 .nav {
   position: sticky;
-  top: 1.75rem;              /* space from top */
+  top: 1.75rem;
   z-index: 100;
 
   display: flex;
-  justify-content: center;   /* center the pill */
+  justify-content: center;
 }
 
-/* The floating pill container */
+/* Floating pill container */
 .nav-inner {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-
   padding: 0.9rem 2.25rem;
 
   background: var(--mid3);
@@ -40,60 +36,67 @@
     0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* Remove default list styles */
+/* List layout */
 .nav-inner ul {
   list-style: none;
   margin: 0;
   padding: 0;
 
   display: flex;
+  align-items: center;
   gap: 1.75rem;
 }
 
-/* Links */
+/* ===== Links ===== */
+
 .nav-item a {
   position: relative;
+  display: inline-block;
 
   font-size: 1.05rem;
   font-weight: 500;
   letter-spacing: 0.4px;
 
   text-decoration: none;
-  color: var(--primary);
+  color: rgba(255, 255, 255, 0.75);
 
   padding: 0.4rem 0;
-  transition: color 0.2s ease, transform 0.15s ease;
+
+  transition:
+    color 0.2s ease,
+    transform 0.15s ease;
 }
 
-/* Subtle hover */
+/* Hover state */
 .nav-item a:hover {
   color: white;
   transform: translateY(-1px);
 }
 
-/* Animated underline */
+/* ===== Animated Underline ===== */
+
 .nav-item a::after {
   content: "";
   position: absolute;
-  left: 0;
-  bottom: -8px;
+  left: 50%;
+  bottom: -6px;
 
-  width: 0%;
-  height: 3px;
+  width: 0;
+  height: 2px;
 
-  background: var(--primary);
+  background: currentColor;
   border-radius: 2px;
 
+  transform: translateX(-50%);
   transition: width 0.25s ease;
 }
 
-.nav-item a:hover::after,
-.nav-item.active a::after,
-.nav-item a.active::after {
-  width: 100%;
+/* Active page only */
+.nav-item a.active {
+  color: white;
+  font-weight: 600;
 }
 
-/* Optional: Slight scale on hover */
-.nav-item a:hover {
-  transform: translateY(-1px);
+.nav-item a.active::after {
+  width: 100%;
 }
