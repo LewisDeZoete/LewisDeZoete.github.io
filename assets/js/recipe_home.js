@@ -43,21 +43,6 @@ async function get_all_recipes() {
     });
 }
 
-// Fetch a single recipe’s ingredients
-// async function get_recipe_info(recipe_type, recipe_filename) {
-//     const res = await fetch(`/projects/recipes/${recipe_type}/${recipe_filename}`);
-//     const data = await res.json();
-//     const ingredients = [];
-//     data.ingredients.forEach(section => {
-//         console.log("Section name:", section.section, "Length:", section.section.length);
-//         if (section.section.trim() === "key_ingredients") {
-//             section.items.forEach(ingred => {
-//                 ingredients.push(ingred)
-//             })
-//         }
-//     })
-//     return ingredients
-// }
 async function get_recipe_info(recipe_type, recipe_filename) {
     try {
         const res = await fetch(`/projects/recipes/${recipe_type}/${recipe_filename}`);
