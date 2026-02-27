@@ -1,0 +1,26 @@
+{
+    "sweet": [
+        {
+            "recipe_title": "Chocolate blackbean brownies",
+            "recipe_filename": "Choc_brownies.json"
+        }
+    ],
+    "savory": [
+        {
+            "recipe_title": "Chicken pasta salad With creamy dill dressing",
+            "recipe_filename": "Chicken_pasta_salad.json"
+        },
+        {
+            "recipe_title": "Abura soba (brothless ramen)",
+            "recipe_filename": "Abura_soba.json"
+        },
+        {
+            "recipe_title": "Kangaroo and Cabbage Stir-Fry with Sesame",
+            "recipe_filename": "Kangaroo_cabbage_stir-fry.json"
+        },
+        {
+            "recipe_title": "Lion's Mane Mushroom Chiabatta Sandwich",
+            "recipe_filename": "Lions_mane_mushroom_sandwich.json"
+        }
+    ]
+}

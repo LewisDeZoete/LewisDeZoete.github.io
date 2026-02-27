@@ -1,0 +1,93 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "Lion's mane mushroom",
+                    "Chiabatta roll",
+                    "Pickled onins",
+                    "Rocket"
+                ]
+            },
+            {
+                "section": "Mushroom marinade",
+                "items": [
+                    "100ml betroot juice",
+                    "2 Tbsp dark soy sauce",
+                    "1 tsp smoke paprika",
+                    "2 Tbsp maple syrup",
+                    "2 Tbsp EVOO",
+                    "1 tsp brown miso paste",
+                    "1 tsp garlic powder",
+                    "Pinch of salt"
+                ]
+            },
+            {
+                "section": "Mayo sauce",
+                "items": [
+                    "2 Tbsp wholegrain mustard",
+                    "2 Tbsp mayo",
+                    "Handful chopped parsley"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Lion's mane mushrooms",
+                    "Chiabatta",
+                    "Picled onions"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "Lion's mane mushroom marination (2 hours prior)",
+                "steps": [
+                    "Prep the marinade in a large tray at least 2 hours prior to assembling the sandwich",
+                    "Gentry fry the mushrooms in oil on each side for 5 minutes, then gentry press down.",
+                    "Flip, and ensure the mushrooms are cooked until golden brown on both sides.",
+                    "Plane mushrooms in marinade and marinate for 30 minutes to 2 hours."
+                ]
+            },
+            {
+                "section": "Mayo sauce",
+                "steps": [
+                    "Combine sauce ingredients in a bowl and set aside."
+                ]
+            },
+            {
+                "section": "Assembly",
+                "steps": [
+                    "Prep pickled onions, slice chiabatta (and toast) in half lengthwise and assemble the mayo sauce.",
+                    "Take the mushrooms out of the marinade and fly in oil on a medium to high heat until charred.",
+                    "Slice mushrooms into 1-2cm pieces.",
+                    "To assemble, slather each side of the chiabatta in the mayo sauce, place on sliced mushrooms, pickled onions and rocket."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "Sub in vegan mayo for a vegan alternative."
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Lion's mane mushroom chiabatta sandwich",
+            "intro": "A vego alternative to a steak sandwich! Sub in vegan mayo for a completely vegan alternative.",
+            "vego": true,
+            "vegan": false,
+            "serves": 1,
+            "prep_time": "2.5 hour",
+            "cook_time": "15 minutes",
+            "reference": "https://www.youtube.com/shorts/MAOhJws6aug"
+        }
+}

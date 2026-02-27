@@ -1,6 +1,6 @@
 // Populate the recipe homepage tables
 async function get_all_recipes() {
-    const res = await fetch("recipe_list.json");
+    const res = await fetch("/projects/recipes/assets/data/recipe_list.json");
     const data = await res.json();
 
     // NOTE: use a class, not an id, since there are multiple tables
@@ -22,7 +22,7 @@ async function get_all_recipes() {
 
             // --- Title link ---
             const link = document.createElement("a");
-            link.href = `/projects/recipes/recipe_template.html?type=${recipe_type}&file=${item.recipe_filename}`;
+            link.href = `/projects/recipes/partials/recipe_template.html?type=${recipe_type}&file=${item.recipe_filename}`;
             link.textContent = item.recipe_title;
 
             const titleCell = document.createElement("td");
@@ -45,7 +45,7 @@ async function get_all_recipes() {
 
 async function get_recipe_info(recipe_type, recipe_filename) {
     try {
-        const res = await fetch(`/projects/recipes/${recipe_type}/${recipe_filename}`);
+        const res = await fetch(`/projects/recipes/assets/data/${recipe_type}/${recipe_filename}`);
         const data = await res.json();
 
         // 1. Find the specific section object

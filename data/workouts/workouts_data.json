@@ -1,0 +1,199 @@
+{
+    "legs": [
+        {
+            "exercise": "Bulgarian Split Squats",
+            "reps": "6-8 x 3",
+            "desc": "(Reps per leg x sets). Place one foot behind you on a bench, step the other foot forward, then lower your hips until the front thigh is parallel to the ground. Works quads, glutes, and hamstrings. Focus on keeping the front knee aligned with your toes.",
+            "image": "legs/bulgarian_split_squats.webp"
+        },
+        {
+            "exercise": "Romanian Dead Lift",
+            "reps": "6-8 x 3",
+            "desc": "Stand with feet hip-width apart, barbell or dumbbells in hands. Hinge at the hips while keeping a slight bend in the knees, lowering the weight along your legs. Strengthens hamstrings, glutes, and lower back. Keep your spine neutral.",
+            "image": "legs/romanian_deadlift.jpg"
+        },
+        {
+            "exercise": "Leg Extension",
+            "reps": "10-12 x 3",
+            "desc": "Sit on a leg extension machine and extend your legs until straight, then lower slowly. Isolates the quadriceps. Control the weight to avoid knee strain.",
+            "image": "legs/leg_extension.jpg"
+        },
+        {
+            "exercise": "Glute Bridges",
+            "reps": "10-12 x 3",
+            "desc": "Lie on your back with knees bent, feet flat. Push your hips up toward the ceiling, squeezing glutes at the top. Targets glutes, hamstrings, and lower back. Avoid overarching the lower back."
+        },
+        {
+            "exercise": "Hamstring Curl",
+            "reps": "10-12 x 3",
+            "desc": "Performed lying or seated on a hamstring curl machine. Curl your heels toward your glutes, then lower slowly. Isolates the hamstrings. Maintain controlled motion to prevent momentum."
+        },
+        {
+            "exercise": "Lunges",
+            "reps": "10-12 x 3",
+            "desc": "Step one leg forward (or backward), bend knees to lower your body until both thighs are roughly parallel. Push through the front heel to return. Works quads, glutes, hamstrings, and improves balance."
+        },
+        {
+            "exercise": "Calf Raises",
+            "reps": "12-15 x 3",
+            "desc": "(Reps per leg x sets). Stand on a flat surface or elevated step, push through the balls of your feet to lift heels, then lower slowly. Strengthens calves (gastrocnemius and soleus). Pause at the top for extra contraction."
+        },
+        {
+            "exercise": "Good Mornings",
+            "reps": "12-15 x 3",
+            "desc": "With a barbell across your shoulders, hinge forward at the hips, keeping your back flat. Return upright. Strengthens hamstrings, glutes, and lower back. Avoid rounding your spine."
+        }
+    ],
+    "legs_stretches": [
+        {
+            "exercise": "Standing Quad Stretch",
+            "reps": "30s x 2",
+            "desc": "Stand on one leg, pull the other heel toward your glutes."
+        },
+        {
+            "exercise": "Hip Hurdles",
+            "reps": "10 per leg",
+            "desc": "Starting seated with both legs stretched in front of you, bench one knee bringing your foot as close to your glutes as possible, and press that knee to the floor, hold for 2 seconds, and return that leg to point forward. Repeat for 10 reps, then switch to other leg."
+        },
+        {
+            "exercise": "90/90",
+            "reps": "10",
+            "desc": ""
+        },
+        {
+            "exercise": "Straight Leg Raises",
+            "reps": "10",
+            "desc": ""
+        },
+        {
+            "exercise": "90/90 Hip Extension",
+            "reps": "10",
+            "desc": ""
+        },
+        {
+            "exercise": "Hip Flexor Lunges",
+            "reps": "10",
+            "desc": ""
+        },
+        {
+            "exercise": "Deep Squats",
+            "reps": "10",
+            "desc": ""
+        },
+        {
+            "exercise": "Deep Lateral Lunges",
+            "reps": "10",
+            "desc": ""
+        }
+
+    ],
+    "push": [
+        {
+            "exercise": "Incline Barbell Press 20°",
+            "reps": "6-8 x 3",
+            "desc": "Lying on a 20° incline bench, press a barbell upward and lower under control. Emphasizes upper chest and front deltoids. Keep shoulders pressed against the bench and avoid flaring elbows excessively.",
+            "image": "push/Incline_barbell_press_20.gif"
+        },
+        {
+            "exercise": "Seated Dumbbell Shoulder Press",
+            "reps": "6-12 x 3",
+            "desc": "Sit upright, press dumbbells overhead, then lower to shoulder level. Targets deltoids and triceps. Keep core engaged and avoid leaning back."
+        },
+        {
+            "exercise": "Skull Crushers",
+            "reps": "8-12 x 3",
+            "desc": "Lying on a bench, extend dumbbells or a barbell from forehead to full arm extension. Isolates triceps. Keep elbows stationary and avoid flaring."
+        },
+        {
+            "exercise": "Full Body (Pushups/Dips)",
+            "reps": "12-15 x 3",
+            "desc": "e.g. Pushups: Bodyweight exercise, hands on the floor or bench, lower chest toward the ground, then press back up. Works chest, triceps, and shoulders."
+        },
+        {
+            "exercise": "Flat Dumbbell Press",
+            "reps": "6-8 x 3",
+            "desc": "Lying flat on a bench, press dumbbells from chest upward, lowering slowly. Works pectorals, shoulders, and triceps. Maintain controlled motion."
+        },
+        {
+            "exercise": "Arnie Press",
+            "reps": "10-12 x 3",
+            "desc": "Begin with dumbbells at shoulders, palms facing you, rotate palms outward while pressing overhead. Targets all heads of the deltoid. Avoid using momentum."
+        },
+        {
+            "exercise": "Finisher",
+            "reps": "8-15 x 2",
+            "desc": "Two sets of dips, lateral raises or pushup variation set."
+        }
+    ],
+    "pull": [
+        {
+            "exercise": "Incline Dumbbell Curl 65°",
+            "reps": "6-8 x 3",
+            "desc": "Sit on a 65° incline bench and perform bicep curls. Emphasizes the long head of the biceps for peak development. Maintain controlled movement.",
+            "image": "pull/Incline_dumbbell_curl_65.webp"
+        },
+        {
+            "exercise": "Pendley Dumbbell Row",
+            "reps": "8-12 x 3",
+            "desc": "Place one hand and knee on a bench, pull a dumbbell toward your hip with the other hand. Strengthens lats, rhomboids, and traps. Avoid rotating torso."
+        },
+        {
+            "exercise": "Dumbbell Pullovers",
+            "reps": "8-12 x 3",
+            "desc": "Lie on a bench, hold a dumbbell with both hands, and lower it behind your head, then bring it over your chest. Stretches chest and lats. Keep a slight bend in elbows."
+        },
+        {
+            "exercise": "Pushup Variation Set",
+            "reps": "8-15 x 3",
+            "desc": "Variations; normal (hands shoulder width apart), diamond (hands close, forefinger and thumb touching) and wide (arms twice a shoulder width apart)."
+        },
+        {
+            "exercise": "Dumbbell Shrugs",
+            "reps": "8-12 x 3",
+            "desc": "Hold dumbbells at your sides and lift shoulders toward ears. Targets trapezius muscles. Pause at the top for maximum contraction."
+        },
+        {
+            "exercise": "Incline Hammer Curl 65°",
+            "reps": "6-8 x 3",
+            "desc": "Similar setup to incline curl, but palms face each other throughout the movement. Works biceps and brachialis."
+        },
+        {
+            "exercise": "Bench Row",
+            "reps": "10-12 x 3",
+            "desc": "Lie chest-down on an incline bench and row dumbbells toward your torso. Works upper back and rear delts. Keep shoulders down and back."
+        },
+        {
+            "exercise": "21's",
+            "reps": "21 x 2",
+            "desc": "Biceps curl variation: 7 reps from bottom to midpoint, 7 reps from midpoint to top, 7 full reps. Maximally fatigues biceps and builds pump."
+        }
+    ],
+    "knees": [
+        {
+            "exercise": "Clock Single Leg Squats",
+            "reps": "3 sets per leg (6 angles)",
+            "desc": "Perform a single-leg squat and step the other foot in multiple directions like the hours on a clock (forward, 45°, 90°, 135°, backward, 225°).",
+            "image": "knees/Clock_single_leg_squats.png"
+        },
+        {
+            "exercise": "Jumping Squats",
+            "reps": "5 x 6",
+            "desc": "Jump as high as you can go, then when you land, squat as low as you can. Perform five jumps for six sets, resting for a minute or so between each set"
+        },
+        {
+            "exercise": "Single Leg Lunges",
+            "reps": "30s x 3",
+            "desc": "(30 seconds per set). Step forward or backward and perform lunges using one leg at a time while keeping the other leg stationary. Emphasizes unilateral strength and balance."
+        },
+        {
+            "exercise": "One Leg Bridges",
+            "reps": "30s x 3",
+            "desc": "(30 seconds per set). Lie on your back, knees bent, lift one leg off the floor, and raise hips with the other leg driving. Isolates glutes and hamstrings on the working leg. Focus on controlled lift and squeeze at the top."
+        },
+        {
+            "exercise": "6 Second Uphill Sprint",
+            "reps": "3s x 5-20",
+            "desc": "Intended as an optional finisher, spring up a hill as fast as you can in 6 second bursts. Rest for at least a minute between sets."
+        }
+    ]
+}

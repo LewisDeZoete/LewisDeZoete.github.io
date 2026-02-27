@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // Load and render a single recipe
 async function loadRecipe(recipe_type, recipe_filename) {
-    const res = await fetch(`/projects/recipes/${recipe_type}/${recipe_filename}`);
+    const res = await fetch(`/projects/recipes/assets/data/${recipe_type}/${recipe_filename}`);
     const recipe = await res.json();
 
     // Title
@@ -69,7 +69,7 @@ async function loadRecipe(recipe_type, recipe_filename) {
         if (section.section) {
             const sectionTitle = document.createElement("h3");
             sectionTitle.textContent = section.section;
-            ingredientsContainer.appendChild(sectionTitle);
+            instructionsList.appendChild(sectionTitle);
         }
         // Always render the list of items
         const ul = document.createElement("ol");
