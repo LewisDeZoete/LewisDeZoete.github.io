@@ -78,6 +78,23 @@ a:visited {
 }
 
 /* ================================
+   IMAGES
+================================ */
+.hero-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+
+/* ================================
    NAVIGATION - handled by nav.css
 ================================ */
 
@@ -160,13 +177,14 @@ table thead th {
 ================================ */
 
 .card-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
-  width: 100%;
 }
 
 .card {
-  flex: 1;
+  flex: 1 1 300px;
+  min_width: 260px;
   padding: 25px;
   background: white;
   border-radius: 12px;

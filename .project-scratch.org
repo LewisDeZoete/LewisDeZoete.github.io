@@ -1,1 +1,3 @@
 #+TITLE: Project Scratch
+
+- [ ] Concatenate the _about_ section into _home_
