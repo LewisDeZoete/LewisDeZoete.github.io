@@ -8,7 +8,7 @@
                     "2 cups cooked chicken breast (300g)",
                     "1 cup spinach, roughly chopped (30g)",
                     "1 Lebanese cucumber, diced",
-                    "1½ cherry tomatoes, halved (250g)",
+                    "1½ cup cherry tomatoes, halved (250g)",
                     "½ cup sun-dried tomatoes, chopped (230g)",
                     "½ red onion, finely diced",
                     "½ cup parsley leaves, chopped",
@@ -55,11 +55,11 @@
         ],
     "macros":
         {
-            "cal": "97",
-            "protein": "15g",
-            "carb": "15g",
-            "fat": "2g",
-            "fiber": "3g"
+            "cal": "733",
+            "protein": "41g",
+            "carb": "83g",
+            "fat": "21g",
+            "fiber": "11g"
         },
     "recipe_info":
         {

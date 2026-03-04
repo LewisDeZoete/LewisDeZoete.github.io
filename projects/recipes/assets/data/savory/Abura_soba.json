@@ -61,16 +61,16 @@
         ],
     "macros":
         {
-            "cal": "97",
-            "protein": "15g",
-            "carb": "15g",
-            "fat": "2g",
-            "fiber": "3g"
+            "cal": "370",
+            "protein": "12g",
+            "carb": "43g",
+            "fat": "18g",
+            "fiber": "2g"
         },
     "recipe_info":
         {
             "title": "Abura soba",
-            "intro": "Brothless ramen, a quick weeknight meal that is completely customisable to what you have in the fridge - but at least pick up some noodles...",
+            "intro": "Brothless ramen, a quick weeknight meal that is completely customisable to what you have in the fridge - but at least pick up some noodles... Macros only account for sauce and noodles.",
             "vego": true,
             "vegan": false,
             "serves": 2,
