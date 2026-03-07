@@ -18,12 +18,6 @@ Palette
 /* ================================
    BASE / GLOBAL
 ================================ */
-/* body { */
-/*   max-width: 700px; */
-/*   margin: 2rem auto; */
-/*   padding: 0 1rem; */
-/*   line-height: 1.6; */
-/* } */
 
 body {
   margin: 0;
@@ -31,6 +25,13 @@ body {
     Roboto, Helvetica, Arial, sans-serif;
   color: var(--text);
   background: var(--bg);
+  min-height: 100vh; /* Make page fill viewport so footer sticks to bottom */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* Pushed footer content to bottom! */
 }
 
 img {
@@ -197,3 +198,4 @@ table thead th {
   transform: translateY(-5px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
+

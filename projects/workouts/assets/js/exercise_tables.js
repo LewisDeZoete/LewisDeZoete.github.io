@@ -1,6 +1,6 @@
 async function get_workout_data() {
   try {
-    const res = await fetch("/data/workouts/workouts_data.json");
+    const res = await fetch("/projects/workouts/assets/data/workouts_data.json");
     if (!res.ok) throw new Error("Network response was not ok");
 
     const data = await res.json();
@@ -42,7 +42,7 @@ async function get_workout_data() {
         // Image cell
         const imageCell = document.createElement("td");
         const img = document.createElement("img");
-        img.src = `/data/workouts/images/${item.image}`; // path to image
+        img.src = `/projects/workouts/assets/images/${item.image}`; // path to image
         img.alt = item.exercise || ""; // alt description (if im isn't found)
         img.loading = "lazy";
         // Append image to <td> element!

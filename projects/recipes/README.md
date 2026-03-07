@@ -1,4 +1,5 @@
-To create a new recipe:
+# Creating new recipes
+
 1. Copy the `/projects/recipes/assets/templates/json_template.json` to either with an appropriate name:
    - `/projects/recipes/assets/data/sweet`
    - `/projects/recipes/assets/data/savory`
