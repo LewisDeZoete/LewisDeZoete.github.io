@@ -51,39 +51,39 @@
             "desc": "Stand on one leg, pull the other heel toward your glutes."
         },
         {
+            "exercise": "Roll Downs",
+            "reps": "10s x 3",
+            "desc": "Keeping hips over feet, gradually lean forward with your arms dangling in front of you, as low as you can go, and hold for 15 seconds. You'll feel the stretch in your hamstrings and calves."
+        },
+        {
+            "exercise": "Hip Flexor Lunges",
+            "reps": "20-30s x 3 per leg",
+            "desc": "Starting with one foot forward, knee bent at a 90° angle and your other leg straight behind you, torso upright and tailbone tucked, lean forward slightly and optionally raise your arms. Hold for 20-30 seconds, then switch sides. Repeat 3 times per leg."
+        },
+        {
+            "exercise": "Butterfly Pose",
+            "reps": "15s x 3",
+            "desc": "Sit upright with legs extended, feet together as close to your groin as you can. Relax your knees and let them drop to the floor, and lean forward to feel a stronger stretch. Hold for 15 seconds, then release and repeat three times."
+        },
+        {
+            "exercise": "90/90 Hip Extension",
+            "reps": "10-15",
+            "desc": "Starting seated with hands behind you, bend both knees at 90° angles, one thigh pointing straight down and the other thigh at a 90° to your body. Pivot on your heels with toes in the air, to switch the pointing of each thigh. Repeat 10-15 times each direction."
+        },
+        {
             "exercise": "Hip Hurdles",
             "reps": "10 per leg",
             "desc": "Starting seated with both legs stretched in front of you, bench one knee bringing your foot as close to your glutes as possible, and press that knee to the floor, hold for 2 seconds, and return that leg to point forward. Repeat for 10 reps, then switch to other leg."
         },
         {
-            "exercise": "90/90",
-            "reps": "10",
-            "desc": ""
-        },
-        {
-            "exercise": "Straight Leg Raises",
-            "reps": "10",
-            "desc": ""
-        },
-        {
-            "exercise": "90/90 Hip Extension",
-            "reps": "10",
-            "desc": ""
-        },
-        {
-            "exercise": "Hip Flexor Lunges",
-            "reps": "10",
-            "desc": ""
-        },
-        {
-            "exercise": "Deep Squats",
-            "reps": "10",
-            "desc": ""
+            "exercise": "Reclining Hero Pose",
+            "reps": "20s x 3",
+            "desc": "Start with legs tucked behind you, bum planted between your heels and elbows under your shoulders to hold you up. Gradually lower yourself onto your back, feeling an intense stretch in your hamstrings and knees. Hold for 4-5 deep breaths before walking your arms back under you. If it's too difficult, plant your heels closer together, sitting on your feet."
         },
         {
             "exercise": "Deep Lateral Lunges",
-            "reps": "10",
-            "desc": ""
+            "reps": "8-10 per leg",
+            "desc": "Start with feet hip-width apart, chest lifted, step with one leg to your side and bend your other leg under you to support. Keep your bent knee aligned with that foot, then push off with this leg to return to the starting position."
         }
 
     ],
@@ -123,6 +123,58 @@
             "exercise": "Finisher",
             "reps": "8-15 x 2",
             "desc": "Two sets of dips, lateral raises or pushup variation set."
+        }
+    ],
+    "push_stretches": [
+        {
+            "exercise": "Neck Stretch",
+            "reps": "10s x 3 per side",
+            "desc": "Standing tall, arms hanging down by your sides, tip your head to one side, trying to touch your shoulder with your ear. Hold for 10 seconds, then release and repeat on the other side."
+        },
+        {
+            "exercise": "Shoulder Rolls",
+            "reps": "10 x forward and backwards",
+            "desc": "Standing tall, arms hanging down by your sides, breat in and lift shoulders towards ears and roll back to pinch shoulder blades behind your back, roll down, then forward to feel stretch at the back of shoulders. Repeat 10 times, then change direction."
+        },
+        {
+            "exercise": "Pendulum Stretch",
+            "reps": "30 seconds per side",
+            "desc": "Lean forward and place one hand on a chair or table in front of you for support. Swing other arm gengly in a circular motion for 30-60 seconds (changing direction if you choose), then swap arms."
+        },
+        {
+            "exercise": "Cross-body Arm Swings",
+            "reps": "10-12",
+            "desc": "Inhale, lift your arms out to your sides, squeezing your shoulder blades together. Exhale, bringing your arms across your body, stretching the back of your shoulder blades. Repeat 10 times, swapping which arm is on top each repetition."
+        },
+        {
+            "exercise": "Cross-body Shoulder Stretch",
+            "reps": "3 x 20 seconds per side",
+            "desc": "Stretch one arm out straight, bringing it across your body so that it points slightly to the floor on the other side. Hook your opposing elbow under the outstretched arm above the elbow and pull outstretched arm towards you. Hold for 20 seconds, then swap arms and repeat 3 times per arm."
+        },
+        {
+            "exercise": "Cow Face Pose",
+            "reps": "15s x 3 per arm",
+            "desc": "Reach one arm above and behind your head, reaching down your back. Reach your other arm under behind your back, attempting to clasp your hands together behind your back. Hold for 15 seconds, then swap arms and repeat 3 times per arm."
+        },
+        {
+            "exercise": "Child's Pose",
+            "reps": "Hold for 1 minute",
+            "desc": "Start with knees on the ground, touching big toes together and knees spread apart. Reach arms above head and bow forwards towards the floor, reaching arms out in front of you. Bring elbows to the ground and sit back to heels. Hold for 60 seconds."
+        },
+        {
+            "exercise": "Side-lying Thoracic Rotation",
+            "reps": "8-15 x 2 per side",
+            "desc": "Lie on one side with knees bent pointing in front of you. Reach your top arm in line with your shoulders above and reach out behind you, keeping knees and hips pointing forward. Repeat several times, then swap sides."
+        },
+        {
+            "exercise": "Ragdoll Pose",
+            "reps": "Hold for 1 minute",
+            "desc": "Stand with feet hip-width apart, bend your knees slightly and place each hand on the opposing arms elbow. Keeping stomach against bent knees, bend forward and try to touch your toes, letting your head hang heavy. Hold for 60 seconds or longer."
+        },
+        {
+            "exercise": "Eagle Arm Stretch",
+            "reps": "30s x 3 per arm",
+            "desc": "Starting standing, lift arms to your sides and swing them across your body. Allow one arm to cross under the other and cradle the upper arm in the elbow. Rotate your arms up, trying to place palms together while all twisted up. Hold for 10 seconds, and swap arms. Repeat 3 times."
         }
     ],
     "pull": [
@@ -166,6 +218,68 @@
             "exercise": "21's",
             "reps": "21 x 2",
             "desc": "Biceps curl variation: 7 reps from bottom to midpoint, 7 reps from midpoint to top, 7 full reps. Maximally fatigues biceps and builds pump."
+        }
+    ],
+    "pull_stretches": [
+        {
+            "exercise": "Neck Stretch",
+            "reps": "10s x 3 per side",
+            "desc": "Standing tall, arms hanging down by your sides, tip your head to one side, trying to touch your shoulder with your ear. Hold for 10 seconds, then release and repeat on the other side."
+        },
+        {
+            "exercise": "Shoulder Rolls",
+            "reps": "10 x forward and backwards",
+            "desc": "Standing tall, arms hanging down by your sides, breat in and lift shoulders towards ears and roll back to pinch shoulder blades behind your back, roll down, then forward to feel stretch at the back of shoulders. Repeat 10 times, then change direction."
+        },
+        {
+            "exercise": "Behind-the-Back Bicep Stretch",
+            "reps": "10s x 3",
+            "desc": "Clasping hands together behind the waist, extend elbows backwards, turning palms outwards as you do allowing arms to naturaly raise. Hold the stretch for 10 seconds, then release, repeating 3 times."
+        },
+        {
+            "exercise": "Overhead Bicep Extension",
+            "reps": "10s x 3",
+            "desc": "Keeping torso upright, extend arms forwards then upwards, rotating shoulders and drawing hands together above head. At the top of the stretch, elbows should be straight and palms should be facing upwards."
+        },
+        {
+            "exercise": "Standing Wall Bicep Stretch",
+            "reps": "10s x 3 per arm",
+            "desc": "Standing facing sideways to a wall, place palm flat against the wall alowing elbow to bend slightly. Rotate body with feed, turning away from the wall allowing elbow to extend. Hold for a few seconds once you feel a stretch then rotate back. Repeat 3 times per arm."
+        },
+        {
+            "exercise": "Seated Behind-the-Back Bicep Stretch",
+            "reps": "5-10s x 3",
+            "desc": "Starting seated, plant both palms behind the back at a distance that allows for near-full elbow extension. Slowly slide butt forward along the ground, keeping palms firmly planted until you feel a stretch. Hold for 5-10 seconds, then release, repeating 3 times."
+        },
+        {
+            "exercise": "Pendulum Stretch",
+            "reps": "30 seconds per side",
+            "desc": "Lean forward and place one hand on a chair or table in front of you for support. Swing other arm gengly in a circular motion for 30-60 seconds (changing direction if you choose), then swap arms."
+        },
+        {
+            "exercise": "Cross-body Arm Swings",
+            "reps": "10-12",
+            "desc": "Inhale, lift your arms out to your sides, squeezing your shoulder blades together. Exhale, bringing your arms across your body, stretching the back of your shoulder blades. Repeat 10 times, swapping which arm is on top each repetition."
+        },
+        {
+            "exercise": "Cross-body Shoulder Stretch",
+            "reps": "3 x 20 seconds per side",
+            "desc": "Stretch one arm out straight, bringing it across your body so that it points slightly to the floor on the other side. Hook your opposing elbow under the outstretched arm above the elbow and pull outstretched arm towards you. Hold for 20 seconds, then swap arms and repeat 3 times per arm."
+        },
+        {
+            "exercise": "Cow Face Pose",
+            "reps": "15s x 3 per arm",
+            "desc": "Reach one arm above and behind your head, reaching down your back. Reach your other arm under behind your back, attempting to clasp your hands together behind your back. Hold for 15 seconds, then swap arms and repeat 3 times per arm."
+        },
+        {
+            "exercise": "Child's Pose",
+            "reps": "Hold for 1 minute",
+            "desc": "Start with knees on the ground, touching big toes together and knees spread apart. Reach arms above head and bow forwards towards the floor, reaching arms out in front of you. Bring elbows to the ground and sit back to heels. Hold for 60 seconds."
+        },
+        {
+            "exercise": "Side-lying Thoracic Rotation",
+            "reps": "8-15 x 2 per side",
+            "desc": "Lie on one side with knees bent pointing in front of you. Reach your top arm in line with your shoulders above and reach out behind you, keeping knees and hips pointing forward. Repeat several times, then swap sides."
         }
     ],
     "knees": [
