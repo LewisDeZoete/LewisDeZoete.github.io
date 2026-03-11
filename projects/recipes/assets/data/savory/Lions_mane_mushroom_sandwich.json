@@ -36,7 +36,7 @@
                 "items": [
                     "Lion's mane mushrooms",
                     "Chiabatta",
-                    "Picled onions"
+                    "Pickled onions"
                 ]
             }
         ],
@@ -81,7 +81,7 @@
         },
     "recipe_info":
         {
-            "title": "Lion's mane mushroom chiabatta sandwich",
+            "title": "Lion's Mane Mushroom Chiabatta Sandwich",
             "intro": "A vego alternative to a steak sandwich! Sub in vegan mayo for a completely vegan alternative.",
             "vego": true,
             "vegan": false,

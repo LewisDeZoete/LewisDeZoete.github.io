@@ -7,11 +7,11 @@
     ],
     "savory": [
         {
-            "recipe_title": "Chicken pasta salad With creamy dill dressing",
+            "recipe_title": "Chicken Pasta Salad with Creamy Dill Dressing",
             "recipe_filename": "Chicken_pasta_salad.json"
         },
         {
-            "recipe_title": "Abura soba (brothless ramen)",
+            "recipe_title": "Abura Soba (Brothless Ramen)",
             "recipe_filename": "Abura_soba.json"
         },
         {
@@ -21,6 +21,10 @@
         {
             "recipe_title": "Lion's Mane Mushroom Chiabatta Sandwich",
             "recipe_filename": "Lions_mane_mushroom_sandwich.json"
+        },
+        {
+            "recipe_title": "Golden Halloumi Bowl with Summer Vegetables and Risoni",
+            "recipe_filename": "Halloumi_bown_summer_veg.json"
         }
     ]
 }

@@ -12,18 +12,18 @@ async function get_all_recipes() {
 
         for (let index = 0; index < data[recipe_type].length; index++) {
             const item = data[recipe_type][index];
-            console.log("Recipe type: ", recipe_type, "Recipe filename:", item.recipe_filename)
 
-            // Fetch ingredients for preview
-            const ingredients = await get_recipe_info(
+            // Fetch title and recipe key ingredients
+            const { title, ingredients } = await get_recipe_info(
                 recipe_type,
                 item.recipe_filename
             );
+            console.log(title)
 
             // --- Title link ---
             const link = document.createElement("a");
             link.href = `/projects/recipes/partials/recipe_template.html?type=${recipe_type}&file=${item.recipe_filename}`;
-            link.textContent = item.recipe_title;
+            link.textContent = title;
 
             const titleCell = document.createElement("td");
             titleCell.appendChild(link);
@@ -48,12 +48,16 @@ async function get_recipe_info(recipe_type, recipe_filename) {
         const res = await fetch(`/projects/recipes/assets/data/${recipe_type}/${recipe_filename}`);
         const data = await res.json();
 
-        // 1. Find the specific section object
+        // 1. Find key ingredients
         const keySection = data.ingredients.find(s => s.section.trim() === "key_ingredients");
 
-        // 2. Return the items if found, otherwise return an empty array
-        return keySection ? keySection.items : [];
+        // 2. Find recipe title
+        const recipeTitle = data.recipe_info.title;
 
+        return {
+            title: recipeTitle,
+            ingredients: keySection ? keySection.items : []
+        };
     } catch (error) {
         console.error("Error fetching recipe:", error);
         return [];

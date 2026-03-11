@@ -1,0 +1,105 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "200g halloumi, cut into cubes or strips",
+                    "1 tsp maple syrup",
+                    "1½ cups risoni pasta",
+                    "2 Tbsp EVOO",
+                    "1 handful green beans, trimmed and roughly chopped",
+                    "200g cherry tomaties, halved",
+                    "6 baby cucumbers (3 Lebanese cucumbers)",
+                    "4 spring onions, finely sliced",
+                    "1 large handful of mint leaves, roughly chopped",
+                    "1 handful of dill, roughly chopped",
+                    "½ cup pitted kalamata olives, roughly chopped",
+                    "⅓ cup pumpkin seeds and/or sunflower seeds, toasted",
+                    "salt and pepper to taste"
+                ]
+            },
+            {
+                "section": "Lemon and maple syrup dressing",
+                "items": [
+                    "2 Tbsp EVOO",
+                    "1 Tbsp apple cider vinegar",
+                    "1 tsp Dijon mustard",
+                    "1 tsp maple syrup",
+                    "good squeeze of lemon juice"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Halloumi",
+                    "Risoni pasta",
+                    "Kalamata olives",
+                    "Maple syrup"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "Prep salad ingredients",
+                "steps": [
+                    "Prepare all raw salad ingredients (everything below EVOO). That is green beans (see note), cherry tomatoes, cucumbers, spring onions, mint leaves, dill, olives, seeds and salt+pepper.",
+                    "Add cold salad ingredients into a large serving bowl and set aside."
+                ]
+            },
+            {
+                "section": "Cook pasta",
+                "steps": [
+                    "Cook the risoni according to packet directions.",
+                    "If you plan to blanch the green beans, set a timer for a minute or so less than the packet directions, and drop in green beans.",
+                    "Once cooked, drain with a seive, rinse with cold water, then drop back into pot or a bowl and cover with 1 Tbsp of EVOO to coat and allow to cool.",
+                    "Once cooled, add to the large salad bowl with the main ingredients."
+                ]
+            },
+            {
+                "section": "Prep dressing",
+                "steps": [
+                    "Add all dressing ingredients into a bowl and whisk until emulsified.",
+                    "Season with salt and pepper to taste and set aside."
+                ]
+            },
+            {
+                "section": "Cook halloumi",
+                "steps": [
+                    "Add 1 Tbsp of EVOO to a pan, and on a medium high heat, fry halloumi for 2-3 minutes each side until golden.",
+                    "Drizzle with maple syrup and cook until syrup caramelises and coats halloumi, then cut the heat and set halloumi aside."
+                ]
+            },
+            {
+                "section": "Plate",
+                "steps": [
+                    "Pour ⅔ of dressing through salad and toss to combine.",
+                    "Serve salad into a bowl, top with warm halloumi and drizzle on remaining dressing."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "If you'd prefer to have the beans cooked slightly, drop them in the risoni pasta water in the last 90 seconds of cooking and drain with risoni."
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Golden Halloumi Bowl with Summer Vegetables and Risoni",
+            "intro": "A light and refreshing, yet hearty vegetarian salad. It takes a little while to chop and prep everything, but makes for a tasty weeknight meal!",
+            "vego": true,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "1 hour",
+            "cook_time": "15 minutes",
+            "reference": "https://www.smh.com.au/goodfood/recipes/golden-halloumi-bowl-with-summer-vegetables-and-risoni-20251105-p5n7ye.html"
+        }
+}
