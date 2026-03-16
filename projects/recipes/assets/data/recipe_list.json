@@ -25,6 +25,9 @@
         {
             "recipe_title": "Golden Halloumi Bowl with Summer Vegetables and Risoni",
             "recipe_filename": "Halloumi_bown_summer_veg.json"
+        },
+        {
+            "recipe_filename": "Spaghetti_with_sea_bass_nori.json"
         }
     ]
 }

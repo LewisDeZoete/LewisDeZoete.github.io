@@ -1,0 +1,81 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "200g spaghetti",
+                    "Sea salt and black pepper",
+                    "1½ nori sheets (3g)",
+                    "3 Tbsp EVOO",
+                    "1½ tsp capers, rinsed and drained",
+                    "2 garlic cloves, peeled and thinly sliced",
+                    "1 tsp chilli flakes",
+                    "5g (1⅓ Tbsp) parsley leaves, roughly chopped",
+                    "40g unsalted butter, cut into small pieces",
+                    "4 sea bass fillets (240g), skinned, sliced into 5cm pieces",
+                    "1 tsp lemon juice (half a lemon)"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Sea bass fillets",
+                    "Nori sheets",
+                    "Parsley leaves",
+                    "Lemon juice"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "Bring a large pot of water to the boil, add salt and cook pasta for 1-2 minutes less than packet directions.",
+                    "Once cooked, drain, and reserve 150ml of the pasta cooking water."
+                ]
+            },
+            {
+                "section": "Garnish",
+                "steps": [
+                    "While pasta is cooking, heat a large, high-sided frying pan on a medium-high heat and toast the nori sheets for 15 seconds each side.",
+                    "Once shiny and crisp, crush sheets into a bowl, reserving ⅓ of the crushed sheets for garnish.",
+                    "With the pan still hot, add in two tablespoons of oil, half the capers, half the garlic and half the chilli.",
+                    "Once sizzling, fry for two minutes until garlic just becomes golden, then remove and pour into a heatproof bowl."
+                ]
+            },
+            {
+                "section": "Sauce and service",
+                "steps": [
+                    "Put in remaining two-thirds of crushed nori, 1 Tbsp EVOO, capers, garlic and chilli flakes, all the parsley, half the butter and a twist of black pepper.",
+                    "Fry, stirring frequently for about a minute until fragrant but not coloured.",
+                    "Add the sliced fish and sprinkle over salt and fry for two minutes, moving pan occasionally until fish is almost opaque.",
+                    "Add in spaghetti, reserved pasta water, lemon juice and remaining butter, turn up the heat and vigorously toss for about two minutes.",
+                    "Once sauce is silky and clinging to pasta, divide the pasta between two bowls, sprinkle over reserved nori and drizzle with reserved chilli garlic oil."
+                ]
+            }
+        ],
+    "notes":
+        [
+        ],
+    "macros":
+        {
+            "cal": "2122",
+            "protein": "55g",
+            "carb": "120g",
+            "fat": "172g",
+            "fiber": "23g"
+        },
+    "recipe_info":
+        {
+            "title": "Spaghetti with Sea Bass and Nori Butter",
+            "intro": "A (notionally) 30 minute meal created by Yotam Ottolenghi, can be doubled to make 4-5 serves.",
+            "vego": false,
+            "vegan": false,
+            "serves": 2,
+            "prep_time": "20 hour",
+            "cook_time": "18 minutes",
+            "reference": "https://www.theguardian.com/food/2024/jan/27/30-minute-meal-yotam-ottolenghi-recipes-thai-deep-fried-omelette-tofu-broccoli-spicy-seaweed-sea-bass-spaghetti"
+        }
+}
