@@ -2,7 +2,7 @@
 
 * TODOs
 - [ ] Concatenate the _about_ section into _home_
-- [ ] Nav.js and partials/nav.html to also add page footer
+- [ ] Use a partial html page for workouts tables (similar to recipes)
 
 * Macro calculations
 

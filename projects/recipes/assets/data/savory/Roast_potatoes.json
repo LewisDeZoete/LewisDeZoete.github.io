@@ -1,0 +1,69 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "1kg potatoes",
+                    "100ml EVOO",
+                    "2 tsp flour",
+                    "Salt to serve"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Potatoes",
+                    "EVOO",
+                    "Flour"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "Preheat",
+                "steps": [
+                    "Put a baking paper lined roasting tin in the oven and heat to 200°C.",
+                    "After heated, add EVOO to the roasting tin and put back into the oven to heat."
+                ]
+            },
+            {
+                "section": "Cooking potatoes",
+                "steps": [
+                    "Cut potatoes into 5cm pieces and place into a large pan.",
+                    "Add enough tap water to cover the potatoes, add salt and bring to a boiled.",
+                    "Once boiling, put on a timer and simmer uncovered for 2 minutes.",
+                    "Drain potatoes in a colander and shake back and forth to fluff up outsides.",
+                    "Sprinkle with flour and shake to evenly cover.",
+                    "Carefully put potatoes into the heated oil in the roasting tin and roll them to cover in oil, and spread into a single layer.",
+                    "Roast for 15 minutes, then take out and turn them over and place back in the oven.",
+                    "Roast for 15 more minutes and turn over again.",
+                    "Roast for a final 10-20 minutes until golden and crisp - scatter with salt and serve immediately!"
+                ]
+            }
+        ],
+    "notes":
+        [
+            "Apparently, the best potatoes for roasting are Yukon Gold and red potatoes."
+        ],
+    "macros":
+        {
+            "cal": "2200",
+            "protein": "6g",
+            "carb": "42g",
+            "fat": "234g",
+            "fiber": "2g"
+        },
+    "recipe_info":
+        {
+            "title": "Roast potatoes",
+            "intro": "A simple, solid, twice cooked roast potato recipe. It takes some time, so plan ahead! Note that the macros assume you're not drinking all of the EVOO from the pan...",
+            "vego": true,
+            "vegan": true,
+            "serves": 4,
+            "prep_time": "15 minutes",
+            "cook_time": "1 hour",
+            "reference": "https://www.bbcgoodfood.com/recipes/ultimate-roast-potatoes"
+        }
+}

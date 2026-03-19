@@ -19,6 +19,7 @@ For example:
     ]
 }
 ```
+3. TODO: Section showing how to fill out template json!
 
 # How to get the macros?
 [VeryWellFit](https://www.verywellfit.com/recipe-nutrition-analyzer-4157076) has a great macro estimator, I'm not sure exactly how accurate it is, but it's a copy-paste job to put your recipe into the calculator.
