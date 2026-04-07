@@ -31,6 +31,9 @@
         },
         {
             "recipe_filename": "Roast_potatoes.json"
+        },
+        {
+            "recipe_filename": "Chickpea_pasta_simple.json"
         }
     ]
 }

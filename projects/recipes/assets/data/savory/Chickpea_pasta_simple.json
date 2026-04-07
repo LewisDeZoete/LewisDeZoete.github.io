@@ -1,0 +1,55 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "500g pasta (spirals, tubetti etc.)",
+                    "2 cans chickpeas, rinsed and drained (800g)",
+                    "1 Tbsp tomato paste",
+                    "4 cloves of garlic, whole",
+                    "2 sprigs rosemary",
+                    "7 cups water",
+                    "EVOO",
+                    "Salt"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "In a large pot, saute whole garlic and rosemary in EVOO.",
+                    "Add the chickpeas and saute to coat, then remove garlic and rosemary sprigs.",
+                    "Stir in tomato pasta and water, and simmer for 20 minutes.",
+                    "Take out ¾ of the chickpeas and blend them until smooth then pour the goop back into the pot.",
+                    "Add the pasta to the pot, season with salt and a little extra water if too thick.",
+                    "Cook pasta according to packet directions."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "If you want, you can throw in seasonings or onions to saute with garlic and rosemary. Don't remove them with the garlic and rosemary!"
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Simple chickpea pasta",
+            "intro": "This recipe can be very modular, so experiment with other flavours or ingredients! This was copied from a YouTube video description, so it's not as detailes as watching the video itself.",
+            "vego": true,
+            "vegan": true,
+            "serves": 4,
+            "prep_time": "1 minutes",
+            "cook_time": "35 minutes",
+            "reference": "https://www.youtube.com/watch?v=aD0dnWztiFU"
+        }
+}

@@ -13,7 +13,7 @@ For example:
     "savory": [
         ...
         {
-            "recipe_title": "Beef and blackbean salad", //This part is actually optional..
+            "recipe_title": "Beef and blackbean salad", //This part is optional..
             "recipe_filename": "Beef_salad.json"
         }
     ]
