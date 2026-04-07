@@ -3,6 +3,7 @@
 * TODOs
 - [ ] Concatenate the _about_ section into _home_
 - [ ] Use a partial html page for workouts tables (similar to recipes)
+- [ ] Add a link in the [[file:projects/recipes/partials/recipe_template.html][recipe template]] partial html that uses the link within the json file
 
 * Macro calculations
 

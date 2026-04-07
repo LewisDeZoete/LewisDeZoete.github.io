@@ -13,6 +13,14 @@
                     "EVOO",
                     "Salt"
                 ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Chickpeas",
+                    "Rosemary",
+                    "Garlic"
+                ]
             }
         ],
     "instructions":
