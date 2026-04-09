@@ -22,6 +22,30 @@ async function loadRecipe(recipe_type, recipe_filename) {
     document.querySelector(".recipe-title").textContent =
         recipe.recipe_info.title;
 
+    // Badge bar
+    const bar = document.querySelector(".badge-bar");
+    bar.innerHTML = '';
+    if (recipe.recipe_info.vego) {
+        const b = document.createElement('span');
+        b.className = 'badge';
+        b.textContent = 'Vegetarian';
+        bar.appendChild(b)
+    }
+    if (recipe.recipe_info.vegan) {
+        const b = document.createElement('span');
+        b.className = 'badge';
+        b.textContent = 'Vegan';
+        bar.appendChild(b)
+    }
+    if (recipe.recipe_info.reference) {
+        const a = document.createElement('a');
+        a.className = 'badge';
+        a.href = recipe.recipe_info.reference;
+        a.textContent = '🔗 View source';
+        a.target = '_blank';
+        bar.appendChild(a);
+    }
+
     // Intro
     document.querySelector(".recipe-intro").textContent =
         recipe.recipe_info.intro;

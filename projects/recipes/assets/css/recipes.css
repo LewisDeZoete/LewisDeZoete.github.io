@@ -1,7 +1,26 @@
-/* ================================
-   RECIPE STYLING OVERRIDES
-================================ */
+/* Badge bar (under the title, for vego, vegan and recipe link) */
+.badge-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 8px 0 0;
+}
 
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Ingredients list styling */
 .ingredients-list {
     display: block;           /* single column */
     list-style-type: disc;    /* bullet points */
@@ -29,6 +48,7 @@ ol.ingredients-sections {
   padding-left: 0.5rem;
 }
 
+/* Macros list styling (bottom of page) */
 .macros-list {
     display: flex !important;
     gap: 0.5rem;
