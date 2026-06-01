@@ -1,81 +1,89 @@
 <!-- index.html -->
 <!DOCTYPE HTML>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-  <title>Workouts homepage</title>
+    <title>Workouts homepage</title>
 
-  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="/assets/css/nav.css">
-  <!-- <link rel="stylesheet" href="/projects/workouts/assets/css/workouts.css"> -->
-</head>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/footer.css"/>
+    <!-- <link rel="stylesheet" href="/projects/workouts/assets/css/workouts.css"> -->
+  </head>
 
-<!-- Body -->
-<body data-page="projects">
-<!-- Nav bar  -->
-<div id="nav"></div>
+  <!-- Body -->
+  <body data-page="projects">
+    <!-- Nav bar  -->
+    <div id="nav"></div>
 
-<!-- Main content page -->
-<main class="page">
-  <h1>WORKOUTS</h1>
-  <p>The three major workouts are listed below. These major workouts presume you have the following pieces of equipment:</p>
-  <ul>
-    <li>Weightlifting Bench</li>
-    <li>Leg extension/leg curl attachment</li>
-    <li>Weight plates</li>
-    <li>Dumbbells</li>
-  </ul>
+    <!-- Main content page -->
+    <main class="page">
+      <!-- Back link -->
+      <a href="/projects.html" class="back-link">← Back to projects</a>
+
+      <h1>WORKOUTS</h1>
+      <p>The three major workouts are listed below. These major workouts presume you have the following pieces of equipment:</p>
+      <ul>
+        <li>Weightlifting Bench</li>
+        <li>Leg extension/leg curl attachment</li>
+        <li>Weight plates</li>
+        <li>Dumbbells</li>
+      </ul>
 
 
-  <h2>Main groups</h2>
-  <table class="workout-table" data-group="main">
-    <colgroup>
-      <col class="workout-title" />
-      <col class="workout-description" />
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+      <h2>Main groups</h2>
+      <table class="workout-table" data-group="main">
+        <colgroup>
+          <col class="workout-title" />
+          <col class="workout-description" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
 
-  <h2>Strengthen</h2>
-  <table class="workout-table" data-group="strengthen">
-    <colgroup>
-      <col class="workout-title" />
-      <col class="workout-description" />
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+      <h2>Strengthen</h2>
+      <table class="workout-table" data-group="strengthen">
+        <colgroup>
+          <col class="workout-title" />
+          <col class="workout-description" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
 
-  <!-- <\!-- TODO: Ensure this whole page is the same width as all the other pages! -\-> -->
-  <!-- <h2>Strengthening</h2> -->
-  <!-- <div class="card-container" data-group="stengthening"> -->
-  <!--   <a href="#knees" class="card"> -->
-  <!--     <h3>Knees</h3> -->
-  <!--     <p>A series of exercises to help strengthen your knees, to get you back into your peak running form!</p> -->
-  <!--   </a> -->
-  <!-- </div> -->
-</main>
+      <!-- <\!-- TODO: Ensure this whole page is the same width as all the other pages! -\-> -->
+      <!-- <h2>Strengthening</h2> -->
+      <!-- <div class="card-container" data-group="stengthening"> -->
+      <!--   <a href="#knees" class="card"> -->
+      <!--     <h3>Knees</h3> -->
+      <!--     <p>A series of exercises to help strengthen your knees, to get you back into your peak running form!</p> -->
+      <!--   </a> -->
+      <!-- </div> -->
+    </main>
 
-<p></p> <!-- Add padding at bottom... -->
+    <!-- <p></p> <\!-- Add padding at bottom... -\-> -->
 
-<!-- <\!-- SCRIPTS -\-> -->
-<script src="/assets/js/nav.js"></script>
-<!-- Get data from workout_data.json and inject it! -->
-<!-- <script src="/projects/workouts/assets/js/exercise_tables.js"></script> -->
-<script type="module" src="/projects/workouts/assets/js/workouts_home.js"></script>
-</body>
+    <!-- Footer  -->
+    <div id="footer"></div>
+
+    <!-- <\!-- SCRIPTS -\-> -->
+    <script src="/assets/js/nav.js"></script>
+    <script src="/assets/js/footer.js"></script>
+    <!-- Get data from workout_data.json and inject it! -->
+    <!-- <script src="/projects/workouts/assets/js/exercise_tables.js"></script> -->
+    <script type="module" src="/projects/workouts/assets/js/workouts_home.js"></script>
+  </body>
 </html>
