@@ -3,7 +3,7 @@
 To add new workouts, or to edit current workouts, edit the file:
 `/projects/workouts/assets/data/workouts_data.json`
 
-The json file is structured as follows (structure may, and should change to better accomodate the stretches for each workout):
+The json file is structured as follows (structure may, and should change to better accommodate the stretches for each workout):
 
 ``` json
 {

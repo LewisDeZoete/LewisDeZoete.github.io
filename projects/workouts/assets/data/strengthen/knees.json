@@ -1,0 +1,37 @@
+{
+    "workout_info":
+    {
+        "title": "knees",
+        "workout_type": "strengthen",
+        "workout_description": "Bullet proof knees!"
+    },
+    "exercises":
+    [
+        {
+            "exercise": "Clock Single Leg Squats",
+            "reps": "3 sets per leg (6 angles)",
+            "desc": "Perform a single-leg squat and step the other foot in multiple directions like the hours on a clock (forward, 45°, 90°, 135°, backward, 225°).",
+            "image": "knees/Clock_single_leg_squats.png"
+        },
+        {
+            "exercise": "Jumping Squats",
+            "reps": "5 x 6",
+            "desc": "Jump as high as you can go, then when you land, squat as low as you can. Perform five jumps for six sets, resting for a minute or so between each set"
+        },
+        {
+            "exercise": "Single Leg Lunges",
+            "reps": "30s x 3",
+            "desc": "(30 seconds per set). Step forward or backward and perform lunges using one leg at a time while keeping the other leg stationary. Emphasizes unilateral strength and balance."
+        },
+        {
+            "exercise": "One Leg Bridges",
+            "reps": "30s x 3",
+            "desc": "(30 seconds per set). Lie on your back, knees bent, lift one leg off the floor, and raise hips with the other leg driving. Isolates glutes and hamstrings on the working leg. Focus on controlled lift and squeeze at the top."
+        },
+        {
+            "exercise": "6 Second Uphill Sprint",
+            "reps": "3s x 5-20",
+            "desc": "Intended as an optional finisher, spring up a hill as fast as you can in 6 second bursts. Rest for at least a minute between sets."
+        }
+    ]
+}

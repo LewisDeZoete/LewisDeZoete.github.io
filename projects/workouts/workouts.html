@@ -5,12 +5,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-  <title>Workouts</title>
+  <title>Workouts homepage</title>
 
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/nav.css">
-  <link rel="stylesheet" href="/projects/workouts/assets/css/workouts.css">
+  <!-- <link rel="stylesheet" href="/projects/workouts/assets/css/workouts.css"> -->
 </head>
 
 <!-- Body -->
@@ -31,177 +31,51 @@
 
 
   <h2>Main groups</h2>
-  <div class="card-container">
-    <a href="#legs" class="card">
-      <h3>Legs</h3>
-      <ul>
-        <li>Quads</li>
-        <li>Hamstrings</li>
-        <li>Glutes</li>
-        <li>Calves</li>
-      </ul>
-    </a>
-    <a href="#push" class="card">
-      <h3>Push</h3>
-      <ul>
-        <li>Chest</li>
-        <li>Triceps</li>
-        <li>Serratus</li>
-        <li>Shoulders</li>
-      </ul>
-    </a>
-    <a href="#pull" class="card">
-      <h3>Pull</h3>
-      <ul>
-        <li>Biceps</li>
-        <li>Trapezius</li>
-        <li>Rhomboids</li>
-        <li>Deltoids</li>
-      </ul>
-    </a>
-  </div>
+  <table class="workout-table" data-group="main">
+    <colgroup>
+      <col class="workout-title" />
+      <col class="workout-description" />
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
 
-  <h2>Strengthening</h2>
-  <div class="card-container">
-    <a href="#knees" class="card">
-      <h3>Knees</h3>
-      <p>A series of exercises to help strengthen your knees, to get you back into your peak running form!</p>
-    </a>
-  </div>
+  <h2>Strengthen</h2>
+  <table class="workout-table" data-group="strengthen">
+    <colgroup>
+      <col class="workout-title" />
+      <col class="workout-description" />
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <!-- <\!-- TODO: Ensure this whole page is the same width as all the other pages! -\-> -->
+  <!-- <h2>Strengthening</h2> -->
+  <!-- <div class="card-container" data-group="stengthening"> -->
+  <!--   <a href="#knees" class="card"> -->
+  <!--     <h3>Knees</h3> -->
+  <!--     <p>A series of exercises to help strengthen your knees, to get you back into your peak running form!</p> -->
+  <!--   </a> -->
+  <!-- </div> -->
 </main>
 
-<!-- TODO: Ensure this whole page is the same width as all the other pages! -->
-<!-- ARTICLES -->
-<!-- Leg day! -->
-<article id="legs" class="fullscreen-article">
-  <a href="#" class="close">&times;</a>
-  <h1>Leg Day</h1>
-
-  <h2>Exercises</h2>
-  <table class="exercise-table" data-group="legs">
-    <colgroup>
-      <col class="exercise" />
-      <col class="reps" />
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Exercise</th>
-        <th>Reps x Sets</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-
-  <h2>Stretches</h2>
-  <table class="exercise-table stretches" data-group="legs_stretches">
-    <colgroup>
-      <col class="exercise" />
-      <col class="reps" />
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Stretch</th>
-        <th>Time</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-</article>
-
-<!-- Push! -->
-<article id="push" class="fullscreen-article">
-  <a href="#" class="close">&times;</a>
-  <h2>Push</h2>
-  <table class="exercise-table" data-group="push">
-    <colgroup>
-      <col class="exercise" />
-      <col class="reps" />
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Exercise</th>
-        <th>Reps</th>
-        <ht></th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-
-  <h2>Stretches</h2>
-  <table class="exercise-table stretches" data-group="push_stretches">
-    <colgroup>
-      <col class="exercise" />
-      <col class="reps" />
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Stretch</th>
-        <th>Time</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-</article>
-
-<!-- Pull! -->
-<article id="pull" class="fullscreen-article">
-  <a href="#" class="close">&times;</a>
-  <h2>Pull</h2>
-  <table class="exercise-table" data-group="pull">
-    <colgroup>
-      <col class="exercise" />
-      <col class="reps" />
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Exercise</th>
-        <th>Reps</th>
-        <ht></th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-
-  <h2>Stretches</h2>
-  <table class="exercise-table stretches" data-group="pull_stretches">
-    <colgroup>
-      <col class="exercise" />
-      <col class="reps" />
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Stretch</th>
-        <th>Time</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-</article>
-
-<!-- Knees! -->
-<article id="knees" class="fullscreen-article">
-  <a href="#" class="close">&times;</a>
-  <h2>Knee Recovery and Strengthening</h2>
-  <table class="exercise-table" data-group="knees">
-    <colgroup>
-      <col class="exercise" />
-      <col class="reps" />
-    </colgroup>
-    <thead>
-      <tr>
-        <th>Exercise</th>
-        <th>Reps</th>
-        <ht></th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-</article>
 <p></p> <!-- Add padding at bottom... -->
 
 <!-- <\!-- SCRIPTS -\-> -->
 <script src="/assets/js/nav.js"></script>
 <!-- Get data from workout_data.json and inject it! -->
-<script src="/projects/workouts/assets/js/exercise_tables.js"></script>
+<!-- <script src="/projects/workouts/assets/js/exercise_tables.js"></script> -->
+<script type="module" src="/projects/workouts/assets/js/workouts_home.js"></script>
 </body>
 </html>

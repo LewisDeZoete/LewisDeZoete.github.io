@@ -1,0 +1,98 @@
+{
+    "workout_info":
+    {
+        "title": "legs",
+        "workout_type": "main",
+        "workout_description": "The main workout for legs"
+    },
+    "workout_data": {
+        "exercises":
+        [
+            {
+                "exercise": "Bulgarian Split Squats",
+                "reps": "6-8 x 3",
+                "desc": "(Reps per leg x sets). Place one foot behind you on a bench, step the other foot forward, then lower your hips until the front thigh is parallel to the ground. Works quads, glutes, and hamstrings. Focus on keeping the front knee aligned with your toes.",
+                "image": "legs/bulgarian_split_squats.webp"
+            },
+            {
+                "exercise": "Romanian Dead Lift",
+                "reps": "6-8 x 3",
+                "desc": "Stand with feet hip-width apart, barbell or dumbbells in hands. Hinge at the hips while keeping a slight bend in the knees, lowering the weight along your legs. Strengthens hamstrings, glutes, and lower back. Keep your spine neutral.",
+                "image": "legs/romanian_deadlift.jpg"
+            },
+            {
+                "exercise": "Leg Extension",
+                "reps": "10-12 x 3",
+                "desc": "Sit on a leg extension machine and extend your legs until straight, then lower slowly. Isolates the quadriceps. Control the weight to avoid knee strain.",
+                "image": "legs/leg_extension.jpg"
+            },
+            {
+                "exercise": "Glute Bridges",
+                "reps": "10-12 x 3",
+                "desc": "Lie on your back with knees bent, feet flat. Push your hips up toward the ceiling, squeezing glutes at the top. Targets glutes, hamstrings, and lower back. Avoid overarching the lower back."
+            },
+            {
+                "exercise": "Hamstring Curl",
+                "reps": "10-12 x 3",
+                "desc": "Performed lying or seated on a hamstring curl machine. Curl your heels toward your glutes, then lower slowly. Isolates the hamstrings. Maintain controlled motion to prevent momentum."
+            },
+            {
+                "exercise": "Lunges",
+                "reps": "10-12 x 3",
+                "desc": "Step one leg forward (or backward), bend knees to lower your body until both thighs are roughly parallel. Push through the front heel to return. Works quads, glutes, hamstrings, and improves balance."
+            },
+            {
+                "exercise": "Calf Raises",
+                "reps": "12-15 x 3",
+                "desc": "(Reps per leg x sets). Stand on a flat surface or elevated step, push through the balls of your feet to lift heels, then lower slowly. Strengthens calves (gastrocnemius and soleus). Pause at the top for extra contraction."
+            },
+            {
+                "exercise": "Good Mornings",
+                "reps": "12-15 x 3",
+                "desc": "With a barbell across your shoulders, hinge forward at the hips, keeping your back flat. Return upright. Strengthens hamstrings, glutes, and lower back. Avoid rounding your spine."
+            }
+        ],
+        "stretches": [
+            {
+                "exercise": "Standing Quad Stretch",
+                "reps": "30s x 2",
+                "desc": "Stand on one leg, pull the other heel toward your glutes."
+            },
+            {
+                "exercise": "Roll Downs",
+                "reps": "10s x 3",
+                "desc": "Keeping hips over feet, gradually lean forward with your arms dangling in front of you, as low as you can go, and hold for 15 seconds. You'll feel the stretch in your hamstrings and calves."
+            },
+            {
+                "exercise": "Hip Flexor Lunges",
+                "reps": "20-30s x 3 per leg",
+                "desc": "Starting with one foot forward, knee bent at a 90° angle and your other leg straight behind you, torso upright and tailbone tucked, lean forward slightly and optionally raise your arms. Hold for 20-30 seconds, then switch sides. Repeat 3 times per leg."
+            },
+            {
+                "exercise": "Butterfly Pose",
+                "reps": "15s x 3",
+                "desc": "Sit upright with legs extended, feet together as close to your groin as you can. Relax your knees and let them drop to the floor, and lean forward to feel a stronger stretch. Hold for 15 seconds, then release and repeat three times."
+            },
+            {
+                "exercise": "90/90 Hip Extension",
+                "reps": "10-15",
+                "desc": "Starting seated with hands behind you, bend both knees at 90° angles, one thigh pointing straight down and the other thigh at a 90° to your body. Pivot on your heels with toes in the air, to switch the pointing of each thigh. Repeat 10-15 times each direction."
+            },
+            {
+                "exercise": "Hip Hurdles",
+                "reps": "10 per leg",
+                "desc": "Starting seated with both legs stretched in front of you, bench one knee bringing your foot as close to your glutes as possible, and press that knee to the floor, hold for 2 seconds, and return that leg to point forward. Repeat for 10 reps, then switch to other leg."
+            },
+            {
+                "exercise": "Reclining Hero Pose",
+                "reps": "20s x 3",
+                "desc": "Start with legs tucked behind you, bum planted between your heels and elbows under your shoulders to hold you up. Gradually lower yourself onto your back, feeling an intense stretch in your hamstrings and knees. Hold for 4-5 deep breaths before walking your arms back under you. If it's too difficult, plant your heels closer together, sitting on your feet."
+            },
+            {
+                "exercise": "Deep Lateral Lunges",
+                "reps": "8-10 per leg",
+                "desc": "Start with feet hip-width apart, chest lifted, step with one leg to your side and bend your other leg under you to support. Keep your bent knee aligned with that foot, then push off with this leg to return to the starting position."
+            }
+        ]
+    }
+}

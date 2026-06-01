@@ -1,6 +1,9 @@
 {
     "legs": [
         {
+            "type": "legs"
+        },
+        {
             "exercise": "Bulgarian Split Squats",
             "reps": "6-8 x 3",
             "desc": "(Reps per leg x sets). Place one foot behind you on a bench, step the other foot forward, then lower your hips until the front thigh is parallel to the ground. Works quads, glutes, and hamstrings. Focus on keeping the front knee aligned with your toes.",
