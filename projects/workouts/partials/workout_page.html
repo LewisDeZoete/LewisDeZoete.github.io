@@ -12,30 +12,61 @@
 </head>
 
 <body data-page="projects">
-<!-- Nav bar -->
-<div id="nav"></div>
+  <!-- Nav bar -->
+  <div id="nav"></div>
 
-<main class="page">
-  <!-- Back link -->
+  <main class="page">
+    <!-- Back link -->
     <a href="/projects/workouts/workouts.html" class="back-link">← Back to workouts</a>
 
     <!-- Workout article -->
     <article id="workout">
 
-        <!-- Title -->
-        <h1 class="workout-title"></h1>
-        <p class="workout-description"></p>
+      <!-- Title -->
+      <h1 class="workout-title"></h1>
+      <p class="workout-description"></p>
 
-        <h1>THIS IS STILL A WORK IN PROGRESS</h1>
-        <p>I still need to reformat the large workout_data.json to be a series of separate workout files...</p>
+      <h2>Exercises</h2>
+      <table class="exercise-table exercises">
+        <colgroup>
+          <col class="exercise" />
+          <col class="reps" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Exercise</th>
+            <th>Reps x Sets</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
 
-
-
+      <h2>Stretches</h2>
+      <table class="exercise-table stretches">
+        <colgroup>
+          <col class="exercise" />
+          <col class="reps" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Stretch</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </article>
-</main>
+  </main>
 
-<!-- SCRIPTS -->
-<script src="/assets/js/nav.js"></script>
-<script type="module" src="/projects/workouts/assets/js/workouts_page.js"></script>
+
+  <!-- TODO: Remove this -->
+  <h1>THIS IS STILL A WORK IN PROGRESS</h1>
+  <p>I still need to reformat the large workout_data.json to be a series of separate workout files...</p>
+  <!-- TODO: Remove this -->
+
+
+  <!-- SCRIPTS -->
+  <script src="/assets/js/nav.js"></script>
+  <script type="module" src="/projects/workouts/assets/js/workouts_page.js"></script>
 </body>
 </html>

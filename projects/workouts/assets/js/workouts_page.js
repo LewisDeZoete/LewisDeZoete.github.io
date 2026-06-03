@@ -4,132 +4,120 @@ document.addEventListener("DOMContentLoaded", async () => {
     const workoutType = params.get("type"); // workout_type (e.g. 'main')
     const workoutFile = params.get("file"); //workout_filename (e.g. 'main\legs.json')
 
-    if (!recipeType || !recipeFile) {
-        document.querySelector("#recipe").textContent =
-            "Recipe not found.";
+    if (!workoutType || !workoutFile) {
+        document.querySelector("#workout").textContent =
+            "Workout not found.";
         return;
     }
 
-    // loadRecipe(recipeType, recipeFile);
+    loadWorkout(workoutType, workoutFile);
 });
 
-// Load and render a single recipe
-async function loadRecipe(recipe_type, recipe_filename) {
-    const res = await fetch(`/projects/recipes/assets/data/${recipe_type}/${recipe_filename}`);
-    const recipe = await res.json();
+async function loadWorkout(workout_type, workout_filename) {
+    const res = await fetch(`/projects/workouts/assets/data/${workout_type}/${workout_filename}`)
+    if (!res.ok) throw new Error("Network response was not ok");
+
+    // Workout data stored here...
+    const workout = await res.json();
 
     // Title
-    document.querySelector(".recipe-title").textContent =
-        recipe.recipe_info.title;
-
-    // Badge bar
-    const bar = document.querySelector(".badge-bar");
-    bar.innerHTML = '';
-    if (recipe.recipe_info.vego) {
-        const b = document.createElement('span');
-        b.className = 'badge';
-        b.textContent = 'Vegetarian';
-        bar.appendChild(b)
-    }
-    if (recipe.recipe_info.vegan) {
-        const b = document.createElement('span');
-        b.className = 'badge';
-        b.textContent = 'Vegan';
-        bar.appendChild(b)
-    }
-    if (recipe.recipe_info.reference) {
-        const a = document.createElement('a');
-        a.className = 'badge';
-        a.href = recipe.recipe_info.reference;
-        a.textContent = '🔗 View source';
-        a.target = '_blank';
-        bar.appendChild(a);
-    }
+    document.querySelector(".workout-title").textContent =
+        workout.workout_info.title.toUpperCase();
 
     // Intro
-    document.querySelector(".recipe-intro").textContent =
-        recipe.recipe_info.intro;
+    document.querySelector(".workout-description").textContent =
+        workout.workout_info.workout_description;
 
-    // Meta info
-    document.querySelector('[data-field="serves"]').textContent =
-        recipe.recipe_info.serves;
-    document.querySelector('[data-field="prep_time"]').textContent =
-        recipe.recipe_info.prep_time;
-    document.querySelector('[data-field="cook_time"]').textContent =
-        recipe.recipe_info.cook_time;
+    // Exercise tables...
+    document.querySelectorAll(".exercise-table").forEach(table => {
+        // Table type is either exercises (for main movements) and stretches
+        const table_type = [...table.classList].slice(-1)[0];
 
-    // Ingredients
-    const ingredientsContainer = document.querySelector(".ingredients-sections");
-    ingredientsContainer.innerHTML = "";
+        // workout_data_list is the list of movements for each section
+        const workout_data_list = workout.workout_data[table_type]
+        const tbody = table.querySelector("tbody");
 
-    // Loop through sections
-    recipe.ingredients.forEach(section => {
-        if (section.section == "key_ingredients") return;
-        // Only render a heading if section is non-empty
-        if (section.section) {
-            const sectionTitle = document.createElement("h3");
-            sectionTitle.textContent = section.section;
-            ingredientsContainer.appendChild(sectionTitle);
-        }
+        populateTables(workout_data_list, tbody)
 
-        // Always render the list of items
-        const ul = document.createElement("ul");
-        ul.classList.add("ingredients-list");
+        // Event listener for clicks on the main rows!
+        table.addEventListener("click", (e) => {
+            const row = e.target.closest(".main-row");
+            if (!row) return;
 
-        section.items.forEach(item => {
-            const li = document.createElement("li");
-            li.textContent = item;
-            ul.appendChild(li);
+            toggleRow(table, row);
         });
 
-        ingredientsContainer.appendChild(ul);
-    });
+        // Event delegation scoped per table
+        table.addEventListener("keydown", (e) => {
+            if (e.key !== "Enter") return;
 
-    // Instructions
-    const instructionsList = document.querySelector(".instructions-sections");
-    instructionsList.innerHTML = "";
-    recipe.instructions.forEach(section => {
-        // Only render a heading if section is non-empty
-        if (section.section) {
-            const sectionTitle = document.createElement("h3");
-            sectionTitle.textContent = section.section;
-            instructionsList.appendChild(sectionTitle);
-        }
-        // Always render the list of items
-        const ul = document.createElement("ol");
-        ul.classList.add("instructions-list");
+            const row = e.target.closest(".main-row");
+            if (!row) return;
 
-        section.steps.forEach(item => {
-            const li = document.createElement("li");
-            li.textContent = item;
-            ul.appendChild(li);
+            toggleRow(table, row);
         });
-
-        instructionsList.appendChild(ul);
-        // const li = document.createElement("li");
-        // li.textContent = step;
-        // instructionsList.appendChild(li);
-    });
-
-    // Notes
-    if (recipe.notes && recipe.notes.length !== 0) {
-        const notesList = document.querySelector(".notes-text");
-        notesList.innerHTML = "";
-        recipe.notes.forEach(note => {
-            const ul = document.createElement("ul");
-            ul.textContent = note
-            notesList.appendChild(ul)
-        })
-    } else {
-        document.getElementById("notes").style.display = "none";
-    }
-
-    // Macros
-    const macrosList = document.querySelector(".macros-list");
-    macrosList.innerHTML = "";
-    Object.entries(recipe.macros).forEach(([key, value]) => {
-        const li = document.createElement("li");
-        li.textContent = `${key.toUpperCase()}: ${value}`;
-        macrosList.appendChild(li);
     });
 }
+
+async function populateTables(workout_data_list, tbody) {
+    workout_data_list.forEach((item, index) => {
+        // Main Row
+        const mainRow = document.createElement("tr");
+        mainRow.classList.add("main-row");
+        mainRow.tabIndex = 0; // accessibility (keyboard focus)
+
+        // Cell 1 (exercise)
+        const exerciseCell = document.createElement("td");
+        exerciseCell.textContent = item.exercise;
+        // Cell 2 (reps)
+        const repsCell = document.createElement("td");
+        repsCell.textContent = item.reps;
+
+        // Append cells to table row
+        mainRow.append(exerciseCell, repsCell);
+
+
+        // Details row
+        const detailRow = document.createElement("tr");
+        detailRow.classList.add("detail-row");
+
+        // Details description cell
+        const detailsDesc = document.createElement("td");
+        detailsDesc.textContent = item.desc;
+        // Image cell
+        const imageCell = document.createElement("td");
+        const img = document.createElement("img");
+        img.src = `/projects/workouts/assets/images/${item.image}`; // path to image
+        img.alt = item.exercise || ""; // alt description (if image isn't found)
+        img.loading = "lazy";
+        // Append image to <td> element!
+        imageCell.appendChild(img);
+
+        // Append cells to details row
+        detailRow.append(detailsDesc, imageCell);
+
+        // Add new rows to table body!
+        tbody.append(mainRow, detailRow);
+    });
+}
+
+function toggleRow(table, row) {
+  const detailRow = table.querySelector(`#${row.dataset.target}`);
+  if (!detailRow) return;
+
+  const isOpen = detailRow.classList.contains("visible");
+
+  // Close all other rows
+  table.querySelectorAll(".detail-row").forEach(r => {
+    if (r !== detailRow) r.classList.remove("visible");
+  });
+
+  table.querySelectorAll(".main-row").forEach(r => {
+    if (r !== row) r.classList.remove("open");
+  });
+
+  // Toggle selected
+  detailRow.classList.toggle("visible", !isOpen);
+  row.classList.toggle("open", !isOpen);
+}
+
