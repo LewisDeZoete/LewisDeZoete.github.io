@@ -1,0 +1,101 @@
+{
+    "workout_info":
+    {
+        "title": "push",
+        "workout_type": "main",
+        "workout_description": "Workout your upper body, focusing on triceps, chest, forearms and back."
+    },
+    "workout_data": {
+        "exercises": [
+            {
+                "exercise": "Incline Barbell Press 20°",
+                "reps": "6-8 x 3",
+                "desc": "Lying on a 20° incline bench, press a barbell upward and lower under control. Emphasizes upper chest and front deltoids. Keep shoulders pressed against the bench and avoid flaring elbows excessively.",
+                "image": "push/Incline_barbell_press_20.gif"
+            },
+            {
+                "exercise": "Seated Dumbbell Shoulder Press",
+                "reps": "6-12 x 3",
+                "desc": "Sit upright, press dumbbells overhead, then lower to shoulder level. Targets deltoids and triceps. Keep core engaged and avoid leaning back."
+            },
+            {
+                "exercise": "Skull Crushers",
+                "reps": "8-12 x 3",
+                "desc": "Lying on a bench, extend dumbbells or a barbell from forehead to full arm extension. Isolates triceps. Keep elbows stationary and avoid flaring."
+            },
+            {
+                "exercise": "Full Body (Pushups/Dips)",
+                "reps": "12-15 x 3",
+                "desc": "e.g. Pushups: Bodyweight exercise, hands on the floor or bench, lower chest toward the ground, then press back up. Works chest, triceps, and shoulders."
+            },
+            {
+                "exercise": "Flat Dumbbell Press",
+                "reps": "6-8 x 3",
+                "desc": "Lying flat on a bench, press dumbbells from chest upward, lowering slowly. Works pectorals, shoulders, and triceps. Maintain controlled motion."
+            },
+            {
+                "exercise": "Arnie Press",
+                "reps": "10-12 x 3",
+                "desc": "Begin with dumbbells at shoulders, palms facing you, rotate palms outward while pressing overhead. Targets all heads of the deltoid. Avoid using momentum."
+            },
+            {
+                "exercise": "Finisher",
+                "reps": "8-15 x 2",
+                "desc": "Two sets of dips, lateral raises or pushup variation set."
+            }
+        ],
+        "stretches": [
+            {
+                "exercise": "Neck Stretch",
+                "reps": "10s x 3 per side",
+                "desc": "Standing tall, arms hanging down by your sides, tip your head to one side, trying to touch your shoulder with your ear. Hold for 10 seconds, then release and repeat on the other side."
+            },
+            {
+                "exercise": "Shoulder Rolls",
+                "reps": "10 x forward and backwards",
+                "desc": "Standing tall, arms hanging down by your sides, breat in and lift shoulders towards ears and roll back to pinch shoulder blades behind your back, roll down, then forward to feel stretch at the back of shoulders. Repeat 10 times, then change direction."
+            },
+            {
+                "exercise": "Pendulum Stretch",
+                "reps": "30 seconds per side",
+                "desc": "Lean forward and place one hand on a chair or table in front of you for support. Swing other arm gengly in a circular motion for 30-60 seconds (changing direction if you choose), then swap arms."
+            },
+            {
+                "exercise": "Cross-body Arm Swings",
+                "reps": "10-12",
+                "desc": "Inhale, lift your arms out to your sides, squeezing your shoulder blades together. Exhale, bringing your arms across your body, stretching the back of your shoulder blades. Repeat 10 times, swapping which arm is on top each repetition."
+            },
+            {
+                "exercise": "Cross-body Shoulder Stretch",
+                "reps": "3 x 20 seconds per side",
+                "desc": "Stretch one arm out straight, bringing it across your body so that it points slightly to the floor on the other side. Hook your opposing elbow under the outstretched arm above the elbow and pull outstretched arm towards you. Hold for 20 seconds, then swap arms and repeat 3 times per arm."
+            },
+            {
+                "exercise": "Cow Face Pose",
+                "reps": "15s x 3 per arm",
+                "desc": "Reach one arm above and behind your head, reaching down your back. Reach your other arm under behind your back, attempting to clasp your hands together behind your back. Hold for 15 seconds, then swap arms and repeat 3 times per arm."
+            },
+            {
+                "exercise": "Child's Pose",
+                "reps": "Hold for 1 minute",
+                "desc": "Start with knees on the ground, touching big toes together and knees spread apart. Reach arms above head and bow forwards towards the floor, reaching arms out in front of you. Bring elbows to the ground and sit back to heels. Hold for 60 seconds."
+            },
+            {
+                "exercise": "Side-lying Thoracic Rotation",
+                "reps": "8-15 x 2 per side",
+                "desc": "Lie on one side with knees bent pointing in front of you. Reach your top arm in line with your shoulders above and reach out behind you, keeping knees and hips pointing forward. Repeat several times, then swap sides."
+            },
+            {
+                "exercise": "Ragdoll Pose",
+                "reps": "Hold for 1 minute",
+                "desc": "Stand with feet hip-width apart, bend your knees slightly and place each hand on the opposing arms elbow. Keeping stomach against bent knees, bend forward and try to touch your toes, letting your head hang heavy. Hold for 60 seconds or longer."
+            },
+            {
+                "exercise": "Eagle Arm Stretch",
+                "reps": "30s x 3 per arm",
+                "desc": "Starting standing, lift arms to your sides and swing them across your body. Allow one arm to cross under the other and cradle the upper arm in the elbow. Rotate your arms up, trying to place palms together while all twisted up. Hold for 10 seconds, and swap arms. Repeat 3 times."
+            }
+        ]
+    }
+
+}

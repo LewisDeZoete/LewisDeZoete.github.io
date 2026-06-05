@@ -6,8 +6,7 @@
         "workout_description": "Workout your legs, focusing on quads, hamstrings, glutes and calves."
     },
     "workout_data": {
-        "exercises":
-        [
+        "exercises": [
             {
                 "exercise": "Bulgarian Split Squats",
                 "reps": "6-8 x 3",

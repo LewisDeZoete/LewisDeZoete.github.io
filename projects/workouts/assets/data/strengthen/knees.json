@@ -5,33 +5,77 @@
         "workout_type": "strengthen",
         "workout_description": "Bullet proof knees!"
     },
-    "exercises":
-    [
-        {
-            "exercise": "Clock Single Leg Squats",
-            "reps": "3 sets per leg (6 angles)",
-            "desc": "Perform a single-leg squat and step the other foot in multiple directions like the hours on a clock (forward, 45°, 90°, 135°, backward, 225°).",
-            "image": "knees/Clock_single_leg_squats.png"
-        },
-        {
-            "exercise": "Jumping Squats",
-            "reps": "5 x 6",
-            "desc": "Jump as high as you can go, then when you land, squat as low as you can. Perform five jumps for six sets, resting for a minute or so between each set"
-        },
-        {
-            "exercise": "Single Leg Lunges",
-            "reps": "30s x 3",
-            "desc": "(30 seconds per set). Step forward or backward and perform lunges using one leg at a time while keeping the other leg stationary. Emphasizes unilateral strength and balance."
-        },
-        {
-            "exercise": "One Leg Bridges",
-            "reps": "30s x 3",
-            "desc": "(30 seconds per set). Lie on your back, knees bent, lift one leg off the floor, and raise hips with the other leg driving. Isolates glutes and hamstrings on the working leg. Focus on controlled lift and squeeze at the top."
-        },
-        {
-            "exercise": "6 Second Uphill Sprint",
-            "reps": "3s x 5-20",
-            "desc": "Intended as an optional finisher, spring up a hill as fast as you can in 6 second bursts. Rest for at least a minute between sets."
-        }
-    ]
+    "workout_data": {
+        "exercises":
+        [
+            {
+                "exercise": "Clock Single Leg Squats",
+                "reps": "3 sets per leg (6 angles)",
+                "desc": "Perform a single-leg squat and step the other foot in multiple directions like the hours on a clock (forward, 45°, 90°, 135°, backward, 225°).",
+                "image": "knees/Clock_single_leg_squats.png"
+            },
+            {
+                "exercise": "Jumping Squats",
+                "reps": "5 x 6",
+                "desc": "Jump as high as you can go, then when you land, squat as low as you can. Perform five jumps for six sets, resting for a minute or so between each set"
+            },
+            {
+                "exercise": "Single Leg Lunges",
+                "reps": "30s x 3",
+                "desc": "(30 seconds per set). Step forward or backward and perform lunges using one leg at a time while keeping the other leg stationary. Emphasizes unilateral strength and balance."
+            },
+            {
+                "exercise": "One Leg Bridges",
+                "reps": "30s x 3",
+                "desc": "(30 seconds per set). Lie on your back, knees bent, lift one leg off the floor, and raise hips with the other leg driving. Isolates glutes and hamstrings on the working leg. Focus on controlled lift and squeeze at the top."
+            },
+            {
+                "exercise": "6 Second Uphill Sprint",
+                "reps": "3s x 5-20",
+                "desc": "Intended as an optional finisher, spring up a hill as fast as you can in 6 second bursts. Rest for at least a minute between sets."
+            }
+        ],
+        "stretches": [
+            {
+                "exercise": "Standing Quad Stretch",
+                "reps": "30s x 2",
+                "desc": "Stand on one leg, pull the other heel toward your glutes."
+            },
+            {
+                "exercise": "Roll Downs",
+                "reps": "10s x 3",
+                "desc": "Keeping hips over feet, gradually lean forward with your arms dangling in front of you, as low as you can go, and hold for 15 seconds. You'll feel the stretch in your hamstrings and calves."
+            },
+            {
+                "exercise": "Hip Flexor Lunges",
+                "reps": "20-30s x 3 per leg",
+                "desc": "Starting with one foot forward, knee bent at a 90° angle and your other leg straight behind you, torso upright and tailbone tucked, lean forward slightly and optionally raise your arms. Hold for 20-30 seconds, then switch sides. Repeat 3 times per leg."
+            },
+            {
+                "exercise": "Butterfly Pose",
+                "reps": "15s x 3",
+                "desc": "Sit upright with legs extended, feet together as close to your groin as you can. Relax your knees and let them drop to the floor, and lean forward to feel a stronger stretch. Hold for 15 seconds, then release and repeat three times."
+            },
+            {
+                "exercise": "90/90 Hip Extension",
+                "reps": "10-15",
+                "desc": "Starting seated with hands behind you, bend both knees at 90° angles, one thigh pointing straight down and the other thigh at a 90° to your body. Pivot on your heels with toes in the air, to switch the pointing of each thigh. Repeat 10-15 times each direction."
+            },
+            {
+                "exercise": "Hip Hurdles",
+                "reps": "10 per leg",
+                "desc": "Starting seated with both legs stretched in front of you, bench one knee bringing your foot as close to your glutes as possible, and press that knee to the floor, hold for 2 seconds, and return that leg to point forward. Repeat for 10 reps, then switch to other leg."
+            },
+            {
+                "exercise": "Reclining Hero Pose",
+                "reps": "20s x 3",
+                "desc": "Start with legs tucked behind you, bum planted between your heels and elbows under your shoulders to hold you up. Gradually lower yourself onto your back, feeling an intense stretch in your hamstrings and knees. Hold for 4-5 deep breaths before walking your arms back under you. If it's too difficult, plant your heels closer together, sitting on your feet."
+            },
+            {
+                "exercise": "Deep Lateral Lunges",
+                "reps": "8-10 per leg",
+                "desc": "Start with feet hip-width apart, chest lifted, step with one leg to your side and bend your other leg under you to support. Keep your bent knee aligned with that foot, then push off with this leg to return to the starting position."
+            }
+        ]
+    }
 }

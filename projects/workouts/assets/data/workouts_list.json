@@ -1,6 +1,8 @@
 {
     "main": [
-        "legs.json"
+        "legs.json",
+        "push.json",
+        "pull.json"
     ],
     "strengthen": [
         "knees.json"

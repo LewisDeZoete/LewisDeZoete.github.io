@@ -1,0 +1,116 @@
+{
+    "workout_info":
+    {
+        "title": "pull",
+        "workout_type": "main",
+        "workout_description": "Workout your upper body, focusing on biceps, traps, shoulders and back."
+    },
+    "workout_data": {
+        "exercises": [
+            {
+                "exercise": "Incline Dumbbell Curl 65°",
+                "reps": "6-8 x 3",
+                "desc": "Sit on a 65° incline bench and perform bicep curls. Emphasizes the long head of the biceps for peak development. Maintain controlled movement.",
+                "image": "pull/Incline_dumbbell_curl_65.webp"
+            },
+            {
+                "exercise": "Pendley Dumbbell Row",
+                "reps": "8-12 x 3",
+                "desc": "Place one hand and knee on a bench, pull a dumbbell toward your hip with the other hand. Strengthens lats, rhomboids, and traps. Avoid rotating torso."
+            },
+            {
+                "exercise": "Dumbbell Pullovers",
+                "reps": "8-12 x 3",
+                "desc": "Lie on a bench, hold a dumbbell with both hands, and lower it behind your head, then bring it over your chest. Stretches chest and lats. Keep a slight bend in elbows."
+            },
+            {
+                "exercise": "Pushup Variation Set",
+                "reps": "8-15 x 3",
+                "desc": "Variations; normal (hands shoulder width apart), diamond (hands close, forefinger and thumb touching) and wide (arms twice a shoulder width apart)."
+            },
+            {
+                "exercise": "Dumbbell Shrugs",
+                "reps": "8-12 x 3",
+                "desc": "Hold dumbbells at your sides and lift shoulders toward ears. Targets trapezius muscles. Pause at the top for maximum contraction."
+            },
+            {
+                "exercise": "Incline Hammer Curl 65°",
+                "reps": "6-8 x 3",
+                "desc": "Similar setup to incline curl, but palms face each other throughout the movement. Works biceps and brachialis."
+            },
+            {
+                "exercise": "Bench Row",
+                "reps": "10-12 x 3",
+                "desc": "Lie chest-down on an incline bench and row dumbbells toward your torso. Works upper back and rear delts. Keep shoulders down and back."
+            },
+            {
+                "exercise": "21's",
+                "reps": "21 x 2",
+                "desc": "Biceps curl variation: 7 reps from bottom to midpoint, 7 reps from midpoint to top, 7 full reps. Maximally fatigues biceps and builds pump."
+            }
+        ],
+        "stretches": [
+            {
+                "exercise": "Neck Stretch",
+                "reps": "10s x 3 per side",
+                "desc": "Standing tall, arms hanging down by your sides, tip your head to one side, trying to touch your shoulder with your ear. Hold for 10 seconds, then release and repeat on the other side."
+            },
+            {
+                "exercise": "Shoulder Rolls",
+                "reps": "10 x forward and backwards",
+                "desc": "Standing tall, arms hanging down by your sides, breat in and lift shoulders towards ears and roll back to pinch shoulder blades behind your back, roll down, then forward to feel stretch at the back of shoulders. Repeat 10 times, then change direction."
+            },
+            {
+                "exercise": "Behind-the-Back Bicep Stretch",
+                "reps": "10s x 3",
+                "desc": "Clasping hands together behind the waist, extend elbows backwards, turning palms outwards as you do allowing arms to naturaly raise. Hold the stretch for 10 seconds, then release, repeating 3 times."
+            },
+            {
+                "exercise": "Overhead Bicep Extension",
+                "reps": "10s x 3",
+                "desc": "Keeping torso upright, extend arms forwards then upwards, rotating shoulders and drawing hands together above head. At the top of the stretch, elbows should be straight and palms should be facing upwards."
+            },
+            {
+                "exercise": "Standing Wall Bicep Stretch",
+                "reps": "10s x 3 per arm",
+                "desc": "Standing facing sideways to a wall, place palm flat against the wall alowing elbow to bend slightly. Rotate body with feed, turning away from the wall allowing elbow to extend. Hold for a few seconds once you feel a stretch then rotate back. Repeat 3 times per arm."
+            },
+            {
+                "exercise": "Seated Behind-the-Back Bicep Stretch",
+                "reps": "5-10s x 3",
+                "desc": "Starting seated, plant both palms behind the back at a distance that allows for near-full elbow extension. Slowly slide butt forward along the ground, keeping palms firmly planted until you feel a stretch. Hold for 5-10 seconds, then release, repeating 3 times."
+            },
+            {
+                "exercise": "Pendulum Stretch",
+                "reps": "30 seconds per side",
+                "desc": "Lean forward and place one hand on a chair or table in front of you for support. Swing other arm gengly in a circular motion for 30-60 seconds (changing direction if you choose), then swap arms."
+            },
+            {
+                "exercise": "Cross-body Arm Swings",
+                "reps": "10-12",
+                "desc": "Inhale, lift your arms out to your sides, squeezing your shoulder blades together. Exhale, bringing your arms across your body, stretching the back of your shoulder blades. Repeat 10 times, swapping which arm is on top each repetition."
+            },
+            {
+                "exercise": "Cross-body Shoulder Stretch",
+                "reps": "3 x 20 seconds per side",
+                "desc": "Stretch one arm out straight, bringing it across your body so that it points slightly to the floor on the other side. Hook your opposing elbow under the outstretched arm above the elbow and pull outstretched arm towards you. Hold for 20 seconds, then swap arms and repeat 3 times per arm."
+            },
+            {
+                "exercise": "Cow Face Pose",
+                "reps": "15s x 3 per arm",
+                "desc": "Reach one arm above and behind your head, reaching down your back. Reach your other arm under behind your back, attempting to clasp your hands together behind your back. Hold for 15 seconds, then swap arms and repeat 3 times per arm."
+            },
+            {
+                "exercise": "Child's Pose",
+                "reps": "Hold for 1 minute",
+                "desc": "Start with knees on the ground, touching big toes together and knees spread apart. Reach arms above head and bow forwards towards the floor, reaching arms out in front of you. Bring elbows to the ground and sit back to heels. Hold for 60 seconds."
+            },
+            {
+                "exercise": "Side-lying Thoracic Rotation",
+                "reps": "8-15 x 2 per side",
+                "desc": "Lie on one side with knees bent pointing in front of you. Reach your top arm in line with your shoulders above and reach out behind you, keeping knees and hips pointing forward. Repeat several times, then swap sides."
+            }
+        ]
+    }
+
+}
