@@ -55,6 +55,7 @@ async function get_workout_data() {
         tbody.append(mainRow, detailRow);
       });
 
+      // Event delegation scoped per table
       table.addEventListener("click", (e) => {
         const row = e.target.closest(".main-row");
         if (!row) return;
@@ -62,7 +63,6 @@ async function get_workout_data() {
         toggleRow(table, row);
       });
 
-      // Event delegation scoped per table
       table.addEventListener("keydown", (e) => {
         if (e.key !== "Enter") return;
 

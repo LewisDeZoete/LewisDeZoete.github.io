@@ -37,7 +37,8 @@ async function loadWorkout(workout_type, workout_filename) {
         const workout_data_list = workout.workout_data[table_type]
         const tbody = table.querySelector("tbody");
 
-        populateTables(workout_data_list, tbody)
+        // Add the content to the tables!
+        populateTables(workout_data_list, tbody, workout.workout_info.title)
 
         // Event listener for clicks on the main rows!
         table.addEventListener("click", (e) => {
@@ -59,11 +60,15 @@ async function loadWorkout(workout_type, workout_filename) {
     });
 }
 
-async function populateTables(workout_data_list, tbody) {
+async function populateTables(workout_data_list, tbody, title) {
     workout_data_list.forEach((item, index) => {
+        const id = `${title}-${index}`
+
         // Main Row
         const mainRow = document.createElement("tr");
+        mainRow.dataset.target = id;
         mainRow.classList.add("main-row");
+
         mainRow.tabIndex = 0; // accessibility (keyboard focus)
 
         // Cell 1 (exercise)
@@ -80,6 +85,7 @@ async function populateTables(workout_data_list, tbody) {
         // Details row
         const detailRow = document.createElement("tr");
         detailRow.classList.add("detail-row");
+        detailRow.id = id;
 
         // Details description cell
         const detailsDesc = document.createElement("td");
@@ -102,22 +108,22 @@ async function populateTables(workout_data_list, tbody) {
 }
 
 function toggleRow(table, row) {
-  const detailRow = table.querySelector(`#${row.dataset.target}`);
-  if (!detailRow) return;
+    const detailRow = table.querySelector(`#${row.dataset.target}`);
+    if (!detailRow) return;
 
-  const isOpen = detailRow.classList.contains("visible");
+    const isOpen = detailRow.classList.contains("visible");
 
-  // Close all other rows
-  table.querySelectorAll(".detail-row").forEach(r => {
-    if (r !== detailRow) r.classList.remove("visible");
-  });
+    // Close all other rows
+    table.querySelectorAll(".detail-row").forEach(r => {
+        if (r !== detailRow) r.classList.remove("visible");
+    });
 
-  table.querySelectorAll(".main-row").forEach(r => {
-    if (r !== row) r.classList.remove("open");
-  });
+    table.querySelectorAll(".main-row").forEach(r => {
+        if (r !== row) r.classList.remove("open");
+    });
 
-  // Toggle selected
-  detailRow.classList.toggle("visible", !isOpen);
-  row.classList.toggle("open", !isOpen);
+    // Toggle selected
+    detailRow.classList.toggle("visible", !isOpen);
+    row.classList.toggle("open", !isOpen);
 }
 

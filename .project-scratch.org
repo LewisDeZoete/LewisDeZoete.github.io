@@ -1,5 +1,7 @@
 #+TITLE: Project Scratch
 
+* Notes
+I've managed to get the workout pages working properly! There's some tidying up to do, but it's complete for the most part. When I've done the tidying up, I'll merge with main 😼
 * TODOs
 - [ ] Concatenate the _about_ section into _home_
 - [ ] Use a partial html page for workouts tables (similar to recipes)
@@ -8,6 +10,9 @@
     "workout_info": {"title": "legs", "workout_type": "main", "workout_description": "a workout for the legs"}
     "exercises": [ {"exercise": "squat", "reps": "6-8 x 3", "desc": "Short exercise desc", "Image": "legs/squat.webp"}, ... ]
     }
+- [ ] Tidy up workouts project
+  - [ ] Delete unused js (=./assets/js/exercise_tables=, =./assets/js/utils=)
+  - [ ] Remove unused lines in workouts.css
 - [ ] Add a link in the [[file:projects/recipes/partials/recipe_template.html][recipe template]] partial html that uses the link within the json file
 
 * Macro calculations
