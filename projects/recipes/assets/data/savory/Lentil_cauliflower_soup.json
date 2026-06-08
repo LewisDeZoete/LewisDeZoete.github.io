@@ -20,8 +20,10 @@
             {
                 "section": "key_ingredients",
                 "items": [
+                    "Lentils",
                     "Cauliflower",
-                    "Only show up on the recipe homepage"
+                    "Carrot",
+                    "Onion"
                 ]
             }
         ],
@@ -47,13 +49,6 @@
                     "Check the mixture every 10 minutes and top off with water so the lentils remain submerged, ensure nothing is sticking and salt levels are right.",
                     "Once cooked, optionally blend with a stick blender to reach a smoother consistency.",
                     "Serve warm with bread, a squeeze of lemon and a dollop of yoghurt."
-                ]
-            },
-            {
-                "section": "Sauce",
-                "steps": [
-                    "Sauce step 1.",
-                    "Sauce step 2."
                 ]
             }
         ],
