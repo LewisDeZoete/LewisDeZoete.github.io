@@ -34,6 +34,9 @@
         },
         {
             "recipe_filename": "Chickpea_pasta_simple.json"
+        },
+        {
+            "recipe_filename": "Lentil_cauliflower_soup.json"
         }
     ]
 }

@@ -1,0 +1,84 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "Half a head of cauliflower, chopped into florets",
+                    "Cauliflower spices (e.g. paprika, cumin)",
+                    "EVOO",
+                    "1 large carrot, peeled",
+                    "4 garlic cloves, peeled",
+                    "1 medium onion, peeled",
+                    "Squeeze of lemon",
+                    "500 grams dried red lentils",
+                    "2 bay leaves",
+                    "A handful of chopped parsley",
+                    "8 cups chicken stock"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Cauliflower",
+                    "Only show up on the recipe homepage"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "Pre-roasting the cauliflower",
+                "steps": [
+                    "Preheat your oven to 200°C, and line a baking tray with baking paper.",
+                    "Place the cauliflower florettes on the tray, coat with EVOO and any spices you'd like.",
+                    "Roast for 15 minutes, then remove and set aside."
+                ]
+            },
+            {
+                "section": "",
+                "steps": [
+                    "Roughly chop the carrots, garlic and onion.",
+                    "Place cauliflower, carrot, garlic and onion into a food processor and blitz to desired consistency - not a paste!.",
+                    "Heat 3 Tbsp of EVOO in large Dutch oven on a medium high heat, then toss in the blitzed mixture with a squeeze of lemon.",
+                    "Cook for 5 minutes until fragrant - it shouldn't get too charred.",
+                    "Add lentils, stir to coat, then add in bay leaves and stock.",
+                    "Bring the mixture to a boil, then reduce heat to medium low and simmer with the lid slightly ajar for 20-40 minutes.",
+                    "Check the mixture every 10 minutes and top off with water so the lentils remain submerged, ensure nothing is sticking and salt levels are right.",
+                    "Once cooked, optionally blend with a stick blender to reach a smoother consistency.",
+                    "Serve warm with bread, a squeeze of lemon and a dollop of yoghurt."
+                ]
+            },
+            {
+                "section": "Sauce",
+                "steps": [
+                    "Sauce step 1.",
+                    "Sauce step 2."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "You can skip pre-roasting the cauliflower if you'd like, I haven't tried it, but I'm sure it's fine 😼",
+            "If you ARE pre-roasting the cauliflower, you may want to blitz this separately from the other ingredients and toss it in a little later, but before the lentils."
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Lentil and Cauliflower Soup",
+            "intro": "A quick and simple weeknight meal that will make more soup than you can handle.",
+            "vego": true,
+            "vegan": true,
+            "serves": 6,
+            "prep_time": "20 minutes",
+            "cook_time": "40 minutes",
+            "reference": "https://www.seriouseats.com/easy-lentil-soup-parsley-garlic-lemon-gremolata-recipe"
+        }
+}

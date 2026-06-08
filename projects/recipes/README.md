@@ -19,7 +19,28 @@ For example:
     ]
 }
 ```
-3. TODO: Section showing how to fill out template json!
+## Filling out the recipe_name.json
+1. First fill out the ingredients section. This is a list of dictionaries, each with the keys "section" and "items". The "items" is a list of strings representing the ingredients.
+    - If the "section" is a blank string, no heading appears above it in the HTML and will appear at the top of the ingredients. 
+    - If the "section" has a non-empty value, this appears as a heading within the ingredients (e.g. "Creamy dill sauce").
+    - If the "section" has the value "key_ingredients", this is parsed by the recipe homepage to show up in the project homepage table. The "items" in this dictionary should simply be a list of ingredients without measurement (e.g. ["Cauliflower", "Lentils"]).
+    
+2. Next, fill out the "instructions" section. Once again, this is a list of dictionaries, each with the keys "section" and "steps". The "steps" is a list of strings representing the steps, in order. 
+The section titles appear above the steps, and the order of the list of the list of dictionaries is followed by the HTML. 
+The sections can be things like "Preheat" (put this as the first list item in the "instructions"), blank "", which appears like the main instructions, or "Sauce", for just assembling the sauce portion of the recipe.
+Add any notes in the "notes" section, this appear below the instructions.
+
+3. Fill out the macros section. You can use a macro calculator such as [this one](https://calculators.recipeblossom.com/recipe-nutrition-calculator/), or manually using the macro calculator table in the [project scratch](.project-scratch.org).
+
+4. Fill out the "recipe_info".
+- `"title"`: in camel case, it appears both at the top of the page on the recipe home.
+- `"intro"`: appears under the recipe heading, and should be a short description of the recipe.
+- `"vego"` / `"vegan"`: are boolean values, which add little tags under the recipe title.
+- `"serves"`: the number of suggested servings.
+- `"prep_time"`: the approximate time it takes to measure, chop, blend and peel ingredients.
+- `"cook_time"`: the approximate time it takes to cook the meal.
+- `"reference"`: a link to any website that you might've used as a reference for this recipe.
+
 
 # How to get the macros?
 [VeryWellFit](https://www.verywellfit.com/recipe-nutrition-analyzer-4157076) has a great macro estimator, I'm not sure exactly how accurate it is, but it's a copy-paste job to put your recipe into the calculator.
