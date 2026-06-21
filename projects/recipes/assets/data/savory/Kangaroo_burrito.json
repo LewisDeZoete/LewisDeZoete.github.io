@@ -1,0 +1,95 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "2 Tbsp EVOO",
+                    "½ red onion, finely sliced",
+                    "500g kangaroo mince",
+                    "1 tsp cumin",
+                    "1 tsp coriander",
+                    "½ dried mint",
+                    "1 Tbsp tomato paste",
+                    "150ml chicken stock",
+                    "¼ cup pistachio, walnuts or cashews, roughly chopped",
+                    "50g fetta, crumbled",
+                    "4 large wraps"
+                ]
+            },
+            {
+                "section": "Salad mixture",
+                "items": [
+                    "1 tomato, diced",
+                    "1 Lebanese cucumber, diced",
+                    "2 sprigs each of mint and parsley, leaves picked and chopped"
+                ]
+            },
+            {
+                "section": "Sauce",
+                "items": [
+                    "3 Tbsp tahini",
+                    "¾ cup Greek yoghurt",
+                    "Zest and juice of ½ lemon",
+                    "Salt, pepper, pinch of salt"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Kangaroo mince",
+                    "Wraps",
+                    "Greek yoghurt",
+                    "Mint and parsley"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "Heat oil in a large pan and add half of the diced onion, and cook to soften.",
+                    "Add spices followed by mince, and fry for 2-3 minutes until browned.",
+                    "Add tomato paste and stock and cook for 8-10 minutes until most of the liquid has evaporated, then season with salt and pepper."
+                ]
+            },
+            {
+                "section": "Sauce and salad mix",
+                "steps": [
+                    "In a bowl, combine tahini, Greek yoghurt, lemon juice and a pinch of salt.",
+                    "In a separate bowl, mix the salad mixture ingredients with a splash of EVOO."
+                ]
+            },
+            {
+                "section": "Assembly",
+                "steps": [
+                    "Fold pistachios and feta through the mince and spread a spoonful of each sauce on the wraps.",
+                    "Fold the sides of the wrap in, brush in a little oil and place in a pan seam-side-down.",
+                    "Cook for half a minute on each side until golden and crisp - cut in half diagonally and serve with lemon."
+                ]
+            }
+        ],
+    "notes": [
+        "You can customise many of the components, particularly the salad mixture components."
+    ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Spiced Kangaroo Burrito",
+            "intro": "Tasty, simple and versatile recipe that can easily be doubled for weeknight dinners and lunches. This is very nearly an exact copy of the recipe on the K-roo website.",
+            "vego": false,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "20 minutes",
+            "cook_time": "15 minutes",
+            "reference": "https://k-roo.com.au/recipes/spiced-kangaroo-burrito"
+        }
+}
