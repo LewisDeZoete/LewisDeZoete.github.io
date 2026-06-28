@@ -1,8 +1,10 @@
 #+TITLE: Project Scratch
+#+STARTUP: fold
 
 * Notes
 I've managed to get the workout pages working properly! There's some tidying up to do, but it's complete for the most part. When I've done the tidying up, I'll merge with main 😼
 * TODOs
+** Manual
 - [ ] Concatenate the _about_ section into _home_
 - [ ] Add process for creating new workout tables in [[file:projects/workouts/README.md][workouts README]]
     {
@@ -12,6 +14,60 @@ I've managed to get the workout pages working properly! There's some tidying up 
 - [ ] Separate chicken cooking recipes and put links to them in [[file:projects/recipes/assets/data/savory/Chicken_pasta_salad.json][chicken pasta salad recipe]]
 - [ ] GitHub action to concatenate all workout_data and recipes to one large json file
 - [ ] Add a link in the [[file:projects/recipes/partials/recipe_template.html][recipe template]] partial html that uses the link within the json file
+- [ ] Working [[file:contact.html][contact page]]
+
+** Scanner
+Run scanner by moving cursor inside codeblock, then executing code =C-c C-c=
+#+NAME: scan-todos
+#+BEGIN_SRC emacs-lisp :results none
+(require 'cl-lib)
+(let* ((root (file-name-directory (buffer-file-name)))
+       (default-directory root)
+       (raw (shell-command-to-string
+             "git grep -n 'TODO:' -- ':!./logs/*' ':!*.pt' ':!*.npz' ':!*.npy' ':!*.pkl'"))
+       (output ""))
+  (dolist (line (split-string raw "\n" t))
+    (when (string-match "^\\([^:]+\\):\\([0-9]+\\):.*TODO:[[:space:]]*\\(.*\\)$" line)
+      (let* ((rel  (match-string 1 line))
+             (lnum (string-to-number (match-string 2 line)))
+             (text (string-trim (match-string 3 line)))
+             (header (format "*** ~%s~\n" rel)))
+        (unless (string-match-p (regexp-quote header) output)
+          (setq output (concat output header)))
+        (setq output (concat output
+                             (format "    - Line %d: %s [[file:%s::%d][→]]\n"
+                                     lnum text rel lnum))))))
+  (save-excursion
+    (goto-char (point-min))
+    (when (re-search-forward "^\\*\\* Items$" nil t)
+      (forward-line 1)
+      (let ((start (point))
+            (end (save-excursion
+                   (if (re-search-forward "^\\* " nil t)
+                       (line-beginning-position)
+                     (point-max)))))
+        (delete-region start end)
+        (insert "\n" (if (string-empty-p output) "   /No TODOs found./\n" output) "\n")))))
+#+END_SRC
+
+** Items
+
+*** ~.project-scratch.org~
+    - Line 25: ' -- ':!./logs/*' ':!*.pt' ':!*.npz' ':!*.npy' ':!*.pkl'")) [[file:.project-scratch.org::25][→]]
+    - Line 28: [[:space:]]*\\(.*\\)$" line) [[file:.project-scratch.org::28][→]]
+*** ~README.md~
+    - Line 4:  [[file:README.md::4][→]]
+*** ~about.html~
+    - Line 34: Harvard resume guide - https://gws.wisc.edu/wp-content/uploads/sites/249/2023/10/College-resume-and-cover-letter-4.pdf --> [[file:about.html::34][→]]
+*** ~contact.html~
+    - Line 31: Contact form - https://www.w3schools.com/howto/howto_css_contact_form.asp --> [[file:contact.html::31][→]]
+*** ~index.html~
+    - Line 27: Put this image centred or something--> [[file:index.html::27][→]]
+*** ~projects/recipes/assets/templates/json_template.json~
+    - Line 31: parse preheat section -Preheat oven to 1000°C" [[file:projects/recipes/assets/templates/json_template.json::31][→]]
+    - Line 51: a way to add these notes as footers within the instructions." [[file:projects/recipes/assets/templates/json_template.json::51][→]]
+*** ~projects/workouts/workouts.html~
+    - Line 67: Ensure this whole page is the same width as all the other pages! -\-> --> [[file:projects/workouts/workouts.html::67][→]]
 
 * Macro calculations
 
