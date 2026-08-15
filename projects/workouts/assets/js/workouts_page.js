@@ -2,23 +2,30 @@ document.addEventListener("DOMContentLoaded", async () => {
     const params = new URLSearchParams(window.location.search);
 
     const workoutType = params.get("type"); // workout_type (e.g. 'main')
-    const workoutFile = params.get("file"); //workout_filename (e.g. 'main\legs.json')
+    const workoutArea = params.get("file"); // workout_area (e.g. 'legs')
 
-    if (!workoutType || !workoutFile) {
+    if (!workoutType || !workoutArea) {
         document.querySelector("#workout").textContent =
             "Workout not found.";
         return;
     }
 
-    loadWorkout(workoutType, workoutFile);
+    loadWorkout(workoutType, workoutArea);
 });
 
-async function loadWorkout(workout_type, workout_filename) {
-    const res = await fetch(`/projects/workouts/assets/data/${workout_type}/${workout_filename}`)
+async function loadWorkout(workout_type, workout_area) {
+    const res = await fetch("/projects/workouts/assets/data/workouts.json");
+    // const res = await fetch("/projects/workouts/assets/data/${workout_type}/${workout_filename}")
     if (!res.ok) throw new Error("Network response was not ok");
 
-    // Workout data stored here...
-    const workout = await res.json();
+    // Get the data from the file
+    const data = await res.json();
+    // Get the array of all the workouts of type provided (e.g. main)
+    const workout_type_arr = data[workout_type]
+
+    // Get the workout corresponding to workout_type and workout_area
+    let workout = workout_type_arr.find((ele) => ele.workout_info.title === workout_area) ?? {};
+    
 
     // Title
     document.querySelector(".workout-title").textContent =

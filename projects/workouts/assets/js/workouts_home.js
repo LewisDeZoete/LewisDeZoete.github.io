@@ -16,12 +16,14 @@ async function get_all_workouts() {
             link.href = `/projects/workouts/partials/workout_page.html?type=${workout_type}&file=${workout_info.title}`;
             link.textContent = workout_info.title
 
+            // --- Add link ---
             const titleCell = document.createElement("td");
             titleCell.appendChild(link);
 
             // --- Description preview ---
             const descriptionCell = document.createElement("td");
             descriptionCell.textContent = workout_info.description;
+
 
             // --- Table row ---
             const row = document.createElement("tr");

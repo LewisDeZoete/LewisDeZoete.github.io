@@ -5,7 +5,7 @@
             {
                 "title": "legs",
                 "workout_type": "main",
-                "workout_description": "Workout your legs, focusing on quads, hamstrings, glutes and calves."
+                "description": "Workout your legs, focusing on quads, hamstrings, glutes and calves."
             },
             "workout_data": {
                 "exercises": [
@@ -102,7 +102,7 @@
             {
                 "title": "push",
                 "workout_type": "main",
-                "workout_description": "Workout your upper body, focusing on triceps, chest, forearms and back."
+                "description": "Workout your upper body, focusing on triceps, chest, forearms and back."
             },
             "workout_data": {
                 "exercises": [
@@ -202,7 +202,7 @@
             {
                 "title": "pull",
                 "workout_type": "main",
-                "workout_description": "Workout your upper body, focusing on biceps, traps, shoulders and back."
+                "description": "Workout your upper body, focusing on biceps, traps, shoulders and back."
             },
             "workout_data": {
                 "exercises": [
@@ -319,7 +319,7 @@
             {
                 "title": "knees",
                 "workout_type": "strengthen",
-                "workout_description": "Bullet proof knees!"
+                "description": "Bullet proof knees!"
             },
             "workout_data": {
                 "exercises":
