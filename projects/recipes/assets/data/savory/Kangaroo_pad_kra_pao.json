@@ -1,0 +1,76 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "5 garlic cloves, finely diced",
+                    "4 Shallots, sliced (sub 1 red onion)",
+                    "4 Tbsp Sambal Olek",
+                    "1kg Kangaroo mince",
+                    "1 cup green beans, cut into 2-3 cm lengths",
+                    "⅔ cup low sodium chicken broth or water",
+                    "4 cups holy basil leaves"
+                ]
+            },
+            {
+                "section": "Sauce",
+                "items": [
+                    "2 tsp sugar",
+                    "2 Tbsp vegan fish sauce",
+                    "2 Tbsp light soy sauce",
+                    "4 tsp dark soy sauce",
+                    "4 tsp oyster sauce"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Kangaroo mince",
+                    "Green beans",
+                    "Shallots",
+                    "Holy basil"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "Combine sauce ingredients in a bowl and mix thoroughly, then set aside.",
+                    "Heat a wok to medium high and stir fry garlic and shallots for around 2 minutes.",
+                    "Add sambal olek and stir fry for a further minute.",
+                    "Turn heat to high and add kangaroo mince, breaking it up with a wooden spoon.",
+                    "Cook kangaroo until it starts to brown and crisp up, about 5 minutes.",
+                    "Add green beans and cook for two minutes.",
+                    "Pour the sauce around the edges of the wok and stir through the mixture, cook on high for a minute.",
+                    "Deglaze the wok with the chicken stock, allowing it to cook off quickly.",
+                    "Cut the heat, add in the basil and allow it to wilt. Serve immediately over rice or noodles."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "When frying the kangaroo, try to evaporate off any water and get a nice char on the mince."
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Kangaroo Pad Kra Pao",
+            "intro": "A tasty, flavoursome meal that comes together quickly - the protein can be subbed out for tofu mince, beef or chicken.",
+            "vego": false,
+            "vegan": false,
+            "serves": 8,
+            "prep_time": "20 minutes",
+            "cook_time": "15 minutes",
+            "reference": "https://thewoksoflife.com/pad-kra-pao/"
+        }
+}

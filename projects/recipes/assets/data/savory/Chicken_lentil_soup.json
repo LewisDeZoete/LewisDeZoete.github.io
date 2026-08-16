@@ -1,0 +1,74 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "3 Tbsp EVOO",
+                    "2 large onions, thinly sliced",
+                    "6 garlic cloves, thinly sliced",
+                    "500g chicken thigh",
+                    "1½ cups dried red lentils, rinsed",
+                    "1 Tbsp ground turmeric",
+                    "Salt and pepper",
+                    "1 cup finely chopped mix of parsley, dill and mint"
+                ]
+            },
+            {
+                "section": "Lemony yoghurt sauce",
+                "items": [
+                    "1 cup full-fat Greek yoghurt",
+                    "2 Tbsp fresh lemon juice (approx 1 lemon)"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Chicken thigh",
+                    "Red lentils",
+                    "Greek yoghurt",
+                    "Lemon"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "Heat oil in a large pot over a medium high heat, add onions and cook, stirring often until deeply charred (10-12 minutes).",
+                    "Add garlic and cook until softened, 2 to 3 minutes.",
+                    "Add the chicken, lentils, turmeric and season with salt and pepper, toss together until coated.",
+                    "Pour in 8 cups of water, turn heat to high and bring to a boil, then turn heat down to a rolling simmer.",
+                    "Cook on a simmer until lentils have split and broth is golden mush and chicken is cooked through (20-25 minutes).",
+                    "Using tongs, remove chicken thigh, let cool slightly then shred and return to the pot.",
+                    "Add the chopped herbs (parsley, dill and mint) and more salt and pepper as necessary.",
+                    "In a small bowl, combine yoghurt and lemon juice and season with salt.",
+                    "Ladle soup into bowls, spoon over lemony yoghurt and enjoy with some bread."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "Serve with a soft-boiled egg or chopped and cooked veggies as you see fit!"
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Chicken and Red Lentil Soup With Lemony Yoghurt",
+            "intro": "A hearty lentil soup to bring you back to life, an absolute classic from NYT, this can be extended by adding extra greens, a soft-boiled egg or some chili oil.",
+            "vego": false,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "45 minutes",
+            "cook_time": "15 minutes",
+            "reference": "https://cooking.nytimes.com/recipes/1026473-chicken-and-red-lentil-soup-with-lemony-yogurt"
+        }
+}

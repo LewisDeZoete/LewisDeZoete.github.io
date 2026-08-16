@@ -40,6 +40,12 @@
         },
         {
             "recipe_filename": "Kangaroo_burrito.json"
-        }
+        },
+        {
+            "recipe_filename": "Kangaroo_pad_kra_pao.json"
+        },
+        {
+            "recipe_filename": "Chicken_lentil_soup.json"
+         }
     ]
 }
