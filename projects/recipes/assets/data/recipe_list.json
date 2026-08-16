@@ -46,6 +46,9 @@
         },
         {
             "recipe_filename": "Chicken_lentil_soup.json"
-         }
+        },
+        {
+            "recipe_filename": "Skillet_chicken_breasts.json"
+        }
     ]
 }

@@ -1,0 +1,61 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "1 tsp chili powder",
+                    "1 tsp garlic powder",
+                    "½ tsp smoked paprika",
+                    "½ tsp ground black pepper",
+                    "700 grams boneless, skinless chicken breasts",
+                    "1 tsp salt",
+                    "1 Tbsp neutral oil",
+                    "1 lemon (optional)"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Chicken breast",
+                    "Lemon"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "In a small bowl, mix the chili powder, garlic powder, onion powder, smoked paprika, and black pepper.",
+                    "Pat the chicken dry with paper towels. Season both sides of the chicken with salt, then rub the spices all over.",
+                    "Heat the oil in a wide skillet over medium-high heat. When the oil is shimmery, add the chicken. Cook, uncovered, until golden, about 3 minutes.",
+                    "Flip the chicken and reduce the heat to low. Add ¼ cup of water to the skillet and cover with a lid (or tuck aluminum foil around the chicken). Cook until an instant-read thermometer reads 75°C in the thickest part of the breast, 10 to 15 minutes.",
+                    "Transfer the chicken to the plate and cover loosely with foil. Leave the chicken to rest for 5 minutes. Slice the chicken into thick pieces and serve it drizzled with the pan drippings and lemon wedges."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "The first part of the cooking process can be a bit messy, so if you have an oil mesh to put over the skillet, do so!"
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Skillet chicken breasts",
+            "intro": "An easy way to cook chicken breast on the stovetop, useful for any recipe that calls for chicken!",
+            "vego": false,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "10 minutes",
+            "cook_time": "20 minutes",
+            "reference": "https://www.inspiredtaste.net/49683/skillet-chicken-breasts/"
+        }
+}
