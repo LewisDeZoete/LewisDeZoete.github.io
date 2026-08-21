@@ -1,0 +1,41 @@
+#+title: Workouts!
+
+To add new workouts, or to edit current workouts, edit the file:
+[[file:assets/data/workouts.json][assets/data/workouts.json]]
+
+The json file is structured as follows (structure may, and should change to better accommodate the stretches for each workout):
+
+#+begin_src json
+{
+    "main": [
+        {
+            "workout_info":
+            {
+                "title": "legs",
+                "workout_type": "main",
+                "description": "Workout your legs, focusing on quads, hamstrings, glutes and calves."
+            },
+            "workout_data": {
+                "exercises": [
+                    {
+                        "exercise": "Bulgarian Split Squats",
+                        "reps": "6-8 x 3",
+                        "desc": "(Reps per leg x sets). Place one foot behind you on a bench, step the other foot forward, then lower your hips until the front thigh is parallel to the ground. Works quads, glutes, and hamstrings. Focus on keeping the front knee aligned with your toes.",
+                        "image": "legs/bulgarian_split_squats.webp"
+                    },
+                    ...
+                ],
+                "stretches": [
+                    {
+                        "exercise": "Standing Quad Stretch",
+                        "reps": "30s x 2",
+                        "desc": "Stand on one leg, pull the other heel toward your glutes."
+                    },
+                    ...
+                ]
+        }
+        },
+        {
+            "workout_info": ...
+        }
+#+end_src
