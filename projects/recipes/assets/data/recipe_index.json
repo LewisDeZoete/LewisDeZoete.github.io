@@ -1,0 +1,16 @@
+{
+    "sweet": [
+        {
+            "recipe_filename": "Choc_brownies.json",
+            "title": "Chocolate blackbean brownies",
+            "key_ingredients": ["Black beans", "Bananas", "Eggs", "Protein powder"]
+        }
+    ],
+    "savory": [
+        {
+            "recipe_filename": "Abura_soba.json",
+            "title": "Abura Soba (Brothless Ramen)",
+            "key_ingredients": [ "Ramen noodes (two bundles)", "Sesame oil", "Oyster sauce", "Mushroom stock", "Peanut butter", "Dobanjiang" ]
+        }
+    ]
+}

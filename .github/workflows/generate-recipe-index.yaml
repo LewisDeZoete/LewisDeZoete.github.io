@@ -1,0 +1,35 @@
+name: Generate Recipe Index
+
+on:
+  push:
+    branches:
+      - dev
+    paths:
+      - 'projects/recipes/assets/data/**/*.json'
+      - '.github/workflows/generate-recipe-index.yml'
+  workflow_dispatch:
+
+jobs:
+  generate-index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Generate recipe index
+        run: node .github/scripts/generate-recipe-index.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add projects/recipes/assets/data/recipe_index.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-generate recipe index" && git push)
