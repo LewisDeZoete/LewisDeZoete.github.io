@@ -1,0 +1,96 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "4 chicken thighs, skin on ~180g each",
+                    "1 tsp salt",
+                    "1 pinch white pepper"
+                ]
+            },
+            {
+                "section": "Rice",
+                "items": [
+                    "1½ cup jasmine rice",
+                    "2 Tbsp neutral oil",
+                    "4 green onions, finely chopped",
+                    "T Tbsp minced ginger",
+                    "1 Tbsp minced garlic",
+                    "¼ teaspoon salt"
+                ]
+            },
+            {
+                "section": "Sauce",
+                "items": [
+                    "2 Tbsp soy sauce",
+                    "1 Tbsp lime juice",
+                    "1 tsp sesame oil",
+                    "fresh chilli, finely chopped"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Chicken thighs",
+                    "Ginger",
+                    "Garlic"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "Marinate chicken",
+                "steps": [
+                    "Add chicken thighs to a bowl and sprinkle with salt and white pepper.",
+                    "Leave to marinate for about 10 minutes"
+                ]
+            },
+            {
+                "section": "Cook chicken and rice",
+                "steps": [
+                    "Rince rice with colder water and drain.",
+                    "Heat oil in a pot over medium heat, then add green onions, ginger and garlic - fry until fragrant then remove ⅔ and set aside.",
+                    "Put in rice and fry for 30 seconds.",
+                    "Add 2 cups water and ¼ teaspoon of salt, then use spatulata to scrape the bottom to loosen up crisp rice.",
+                    "Place the marinated chicken on top without overlapping.",
+                    "Leave to cook uncovered until water starts to boil gently.",
+                    "Put a lid on and turn heat to lowest - cook for 20 minutes.",
+                    "Turn off heat when time is up and let sit for a further 10 minutes."
+                    
+                ]
+            },
+            {
+                "section": "Service",
+                "steps": [
+                    "Take out chicken thighs, remove bones and slice.",
+                    "Put rice in individual plates with chicken and (optionally) cucumber on the side.",
+                    "Add soy sauce, lime juice and sesame oil to fried aromatics to serve as a dipping sauce."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "Remember not to open lid during cooking process!"
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "One-pot Hainanese Chicken Rice",
+            "intro": "An easy version of the classic Hainanese chicken rice, this one-pot recipe is very simple to make.",
+            "vego": false,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "15 minutes",
+            "cook_time": "22 minutes",
+            "reference": "https://redhousespice.com/chinese-style-one-pot-chicken-rice/#wprm-recipe-container-10984"
+        }
+}

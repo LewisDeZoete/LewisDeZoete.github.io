@@ -51,6 +51,15 @@
             ]
         },
         {
+            "recipe_filename": "Hainanese_chicken_rice.json",
+            "title": "One-pot Hainanese Chicken Rice",
+            "key_ingredients": [
+                "Chicken thighs",
+                "Ginger",
+                "Garlic"
+            ]
+        },
+        {
             "recipe_filename": "Halloumi_bown_summer_veg.json",
             "title": "Golden Halloumi Bowl with Summer Vegetables and Risoni",
             "key_ingredients": [
