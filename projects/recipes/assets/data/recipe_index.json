@@ -1,16 +1,144 @@
 {
-    "sweet": [
-        {
-            "recipe_filename": "Choc_brownies.json",
-            "title": "Chocolate blackbean brownies",
-            "key_ingredients": ["Black beans", "Bananas", "Eggs", "Protein powder"]
-        }
-    ],
     "savory": [
         {
             "recipe_filename": "Abura_soba.json",
             "title": "Abura Soba (Brothless Ramen)",
-            "key_ingredients": [ "Ramen noodes (two bundles)", "Sesame oil", "Oyster sauce", "Mushroom stock", "Peanut butter", "Dobanjiang" ]
+            "key_ingredients": [
+                "Ramen noodes (two bundles)",
+                "Sesame oil",
+                "Oyster sauce",
+                "Mushroom stock",
+                "Peanut butter",
+                "Dobanjiang"
+            ]
+        },
+        {
+            "recipe_filename": "Chicken_lentil_soup.json",
+            "title": "Chicken and Red Lentil Soup With Lemony Yoghurt",
+            "key_ingredients": [
+                "Chicken thigh",
+                "Red lentils",
+                "Greek yoghurt",
+                "Lemon"
+            ]
+        },
+        {
+            "recipe_filename": "Chicken_pasta_salad.json",
+            "title": "Chicken Pasta Salad with Creamy Dill Dressing",
+            "key_ingredients": [
+                "Chicken breast",
+                "Lebanese cucumber",
+                "Sun-dried tomatoes",
+                "Greek yoghurt",
+                "Dill"
+            ]
+        },
+        {
+            "recipe_filename": "Chickpea_pasta_simple.json",
+            "title": "Simple Chickpea Pasta",
+            "key_ingredients": [
+                "Chickpeas",
+                "Rosemary",
+                "Garlic"
+            ]
+        },
+        {
+            "recipe_filename": "Greek_potatoes.json",
+            "title": "Greek Potatoes",
+            "key_ingredients": [
+                "Potatoes",
+                "Lemon juice"
+            ]
+        },
+        {
+            "recipe_filename": "Halloumi_bown_summer_veg.json",
+            "title": "Golden Halloumi Bowl with Summer Vegetables and Risoni",
+            "key_ingredients": [
+                "Halloumi",
+                "Risoni pasta",
+                "Kalamata olives",
+                "Maple syrup"
+            ]
+        },
+        {
+            "recipe_filename": "Kangaroo_burrito.json",
+            "title": "Spiced Kangaroo Burrito",
+            "key_ingredients": [
+                "Kangaroo mince",
+                "Wraps",
+                "Greek yoghurt",
+                "Mint and parsley"
+            ]
+        },
+        {
+            "recipe_filename": "Kangaroo_cabbage_stir-fry.json",
+            "title": "Kangaroo and Cabbage Stir-fry with Sesame",
+            "key_ingredients": [
+                "Flank steak",
+                "Capsicum",
+                "Broccoli",
+                "Cabbage"
+            ]
+        },
+        {
+            "recipe_filename": "Kangaroo_pad_kra_pao.json",
+            "title": "Kangaroo Pad Kra Pao",
+            "key_ingredients": [
+                "Kangaroo mince",
+                "Green beans",
+                "Shallots",
+                "Holy basil"
+            ]
+        },
+        {
+            "recipe_filename": "Lentil_cauliflower_soup.json",
+            "title": "Lentil and Cauliflower Soup",
+            "key_ingredients": [
+                "Lentils",
+                "Cauliflower",
+                "Carrot",
+                "Onion"
+            ]
+        },
+        {
+            "recipe_filename": "Lions_mane_mushroom_sandwich.json",
+            "title": "Lion's Mane Mushroom Chiabatta Sandwich",
+            "key_ingredients": [
+                "Lion's mane mushrooms",
+                "Chiabatta",
+                "Pickled onions"
+            ]
+        },
+        {
+            "recipe_filename": "Roast_potatoes.json",
+            "title": "Roast Potatoes",
+            "key_ingredients": [
+                "Potatoes",
+                "EVOO",
+                "Flour"
+            ]
+        },
+        {
+            "recipe_filename": "Spaghetti_with_sea_bass_nori.json",
+            "title": "Spaghetti with Sea Bass and Nori Butter",
+            "key_ingredients": [
+                "Sea bass fillets",
+                "Nori sheets",
+                "Parsley leaves",
+                "Lemon juice"
+            ]
+        }
+    ],
+    "sweet": [
+        {
+            "recipe_filename": "Choc_brownies.json",
+            "title": "Chocolate Blackbean Brownies",
+            "key_ingredients": [
+                "Black beans",
+                "Bananas",
+                "Eggs",
+                "Protein powder"
+            ]
         }
     ]
 }
