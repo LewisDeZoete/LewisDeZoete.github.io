@@ -25,17 +25,17 @@
     "instructions":
         [
             {
-                "section": "",
+                "section": "Preheat",
                 "steps": [
-                    "Main steps 1.",
-                    "Main steps 2."
+                    "Preheat oven to 245°C"
                 ]
             },
             {
-                "section": "Sauce",
+                "section": "",
                 "steps": [
-                    "Sauce step 1.",
-                    "Sauce step 2."
+                    "Toss the potatoes, lemon juice, oils, garlic, salt and pepper together in a deep, flat roasting pan.",
+                    "Pour on the hot water and bake, uncovered, for about 1½ hours, stirring every 20 minutes. Add a little more water if necessary to prevent sticking.",
+                    "During the final 15-20 minutes allow the water to evaporate until only the oil is left and the potatoes start to brown."
                 ]
             }
         ],
@@ -54,12 +54,12 @@
     "recipe_info":
         {
             "title": "Greek Potatoes",
-            "intro": "I usually make these in double quantities and cook in two pans, because there never seem to be enough to go around. On the rare occasion that any are left over, they’re delicious eaten cold or tossed through a green salad like croutons. The original Moosewood cookbook recipe suggested including 1½ teaspoons dried oregano, but I never do, although this would make it more traditionally Greek. They’re also good with crumbled feta and chopped parsley added at the end. You can reduce the volume of oil if you are careful not to let it stick towards the end of cooking time.",
+            "intro": "I usually make these in double quantities and cook in two pans, because there never seem to be enough to go around. On the rare occasion that any are left over, they’re delicious eaten cold or tossed through a green salad like croutons. The original Moosewood cookbook recipe suggested including 1½ teaspoons dried oregano, but I never do, although this would make it more traditionally Greek. They’re also good with crumbled feta and chopped parsley added at the end. You can reduce the volume of oil if you are careful not to let it stick towards the end of cooking time. This is a family recipe, so the link provided does not strictly reflect the process described here.",
             "vego": true,
             "vegan": false,
-            "serves": 4,
-            "prep_time": "1 hour",
-            "cook_time": "15 minutes",
-            "reference": "https://www.google.com"
+            "serves": 6,
+            "prep_time": "15 minutes",
+            "cook_time": "1½ hours",
+            "reference": "https://thegreekfoodie.com/lemon-potatoes-with-garlic-and-oregano/"
         }
 }
