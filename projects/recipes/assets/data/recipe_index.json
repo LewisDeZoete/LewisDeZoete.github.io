@@ -119,6 +119,14 @@
             ]
         },
         {
+            "recipe_filename": "Pan_chicken.json",
+            "title": "Pan Seared Chicken Breast",
+            "key_ingredients": [
+                "Chicken breast",
+                "Spice rub"
+            ]
+        },
+        {
             "recipe_filename": "Roast_potatoes.json",
             "title": "Roast Potatoes",
             "key_ingredients": [

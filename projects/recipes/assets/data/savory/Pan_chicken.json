@@ -1,0 +1,74 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "680g boneless, skinless chicken breast"
+                ]
+            },
+            {
+                "section": "Marinade / Rub",
+                "items": [
+                    "1 tsp chili powder",
+                    "1 tsp garlic powder",
+                    "1 tsp smoked paprika",
+                    "1 tsp black pepper",
+                    "1 tsp salt",
+                    "1 Tbsp neutral oil",
+                    "½ lemon (optional)"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Chicken breast",
+                    "Spice rub"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "Marinate (optional)",
+                "steps": [
+                    "Add marinade ingredients into a ziplock bag and mix to combine.",
+                    "Tenderise chicken breasts then place in the ziplock bag and mix thoroughly, then set aside for 20 minutes to an hour."
+                ]
+            },
+            {
+                "section": "",
+                "steps": [
+                    "If not marinating, combine the dry spices, pat chicken breast dry and season both sides with spice rub.",
+                    "Heat oil in a wide skillet over medium-high heat - once shimmering, add the chicken smooth side down.",
+                    "Cook chicken uncovered on this smooth side for 3-4 minutes until golden.",
+                    "Flip chicken, reduce heat to low and add ¼ cup of water to skillet then cover with lid (or aluminium foil).",
+                    "Once chicken reaches 75°C internal at the thickest point, cut the heat and transfer to a plate, covered loosely, to rest for 5 minutes.",
+                    "Slice into pieces, drizzle with pan drippings and serve!"
+                ]
+            }
+        ],
+    "notes":
+        [
+            "Change up the marinade / rub to suit the dish you're cooking!"
+        ],
+    "macros":
+        {
+            "cal": "208",
+            "protein": "39g",
+            "carb": "1g",
+            "fat": "5g",
+            "fiber": "0g"
+        },
+    "recipe_info":
+        {
+            "title": "Pan Seared Chicken Breast",
+            "intro": "A simple and versitile pan seared chicken breast that can be adapted to many dishes. Either marinate in a ziplock bag ahead of time or dry rub with spices to cook right away.",
+            "vego": false,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "5 minutes",
+            "cook_time": "15 minutes",
+            "reference": "https://www.inspiredtaste.net/49683/skillet-chicken-breasts/"
+        }
+}
