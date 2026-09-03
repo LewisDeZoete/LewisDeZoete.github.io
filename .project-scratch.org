@@ -6,15 +6,15 @@ I've managed to get the workout pages working properly! There's some tidying up 
 * TODOs
 ** Manual
 - [ ] Concatenate the _about_ section into _home_
-- [ ] Add process for creating new workout tables in [[file:projects/workouts/README.md][workouts README]]
-    {
-    "workout_info": {"title": "legs", "workout_type": "main", "workout_description": "a workout for the legs"}
-    "exercises": [ {"exercise": "squat", "reps": "6-8 x 3", "desc": "Short exercise desc", "Image": "legs/squat.webp"}, ... ]
-    }
-- [ ] Separate chicken cooking recipes and put links to them in [[file:projects/recipes/assets/data/savory/Chicken_pasta_salad.json][chicken pasta salad recipe]]
+- [ ] Add relevant links to pan seared chicken in [[file:projects/recipes/assets/data/savory/Chicken_pasta_salad.json][chicken pasta salad recipe]]
 - [ ] GitHub action to concatenate all workout_data and recipes to one large json file
 - [ ] Add a link in the [[file:projects/recipes/partials/recipe_template.html][recipe template]] partial html that uses the link within the json file
 - [ ] Working [[file:contact.html][contact page]]
+
+*** Build pages
+- [ ] [[file:projects/poseoff/poseoff.html][PoseOFF page]]
+- [ ] [[file:projects/website_repository/website_repository.html][Website repository page]]
+- [ ] Configs page
 
 ** Scanner
 Run scanner by moving cursor inside codeblock, then executing code =C-c C-c=
