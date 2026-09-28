@@ -1,0 +1,68 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "500g dry rigatoni or spaghetti",
+                    "2 large broccoli heads, cut into bite size pieces"
+                ]
+            },
+            {
+                "section": "Miso pasta sauce",
+                "items": [
+                    "¼ cup EVOO",
+                    "2 Tbsp white or yellow miso paste",
+                    "2 garlic cloves, minced",
+                    "1 Tbsp ground black pepper",
+                    "1 tsp red pepper flakes",
+                    "1 cup grated parmesan"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Broccoli",
+                    "Miso pasta",
+                    "Parmesan"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "Bring a large pot of salted water to boil and add rigatoni.",
+                    "3-5 minutes before pasta is al dente, add in broccoli and allow it to boil until pasta and broccoli are cooked.",
+                    "Reserve 1 cup of pasta water, then drain pasta and broccoli.",
+                    "In the same saucepan, warm EVOO over a medium heat, then add miso paste, garlic, pepper and chili flakes and saute for 30-45 seconds.",
+                    "Fold in parmesan, rigatoni, broccoli and ¼ cup of pasta water.",
+                    "Stir to create a glossy coating, adding more pasta water if needed and serve immediately."
+                ]
+            }
+        ],
+    "notes":
+        [
+            ""
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Broccoli Miso Pasta",
+            "intro": "Quick and simple broccoli pasta with a glossy miso sauce.",
+            "vego": true,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "20 minutes",
+            "cook_time": "20 minutes",
+            "reference": "https://thatonedish.substack.com/p/a-recipe-for-pasta-with-broccoli"
+        }
+}

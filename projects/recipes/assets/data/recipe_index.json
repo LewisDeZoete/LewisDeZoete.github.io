@@ -13,6 +13,24 @@
             ]
         },
         {
+            "recipe_filename": "Broccoli_miso_pasta.json",
+            "title": "Broccoli Miso Pasta",
+            "key_ingredients": [
+                "Broccoli",
+                "Miso pasta",
+                "Parmesan"
+            ]
+        },
+        {
+            "recipe_filename": "Broccoli_pasta.json",
+            "title": "Broccoli Lemon Pasta",
+            "key_ingredients": [
+                "Broccoli",
+                "Lemon",
+                "Parmesan"
+            ]
+        },
+        {
             "recipe_filename": "Chicken_lentil_soup.json",
             "title": "Chicken and Red Lentil Soup With Lemony Yoghurt",
             "key_ingredients": [

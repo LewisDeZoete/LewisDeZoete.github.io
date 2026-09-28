@@ -1,0 +1,71 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "350g dry short pasta",
+                    "2 large broccoli heads, cut into bite sized pieces",
+                    "1 cup shredded cheese"
+                ]
+            },
+            {
+                "section": "Pasta sauce",
+                "items": [
+                    "2 tsp lemon zest",
+                    "2 Tbsp lemon juice",
+                    "5 Tbsp EVOO",
+                    "⅓ cup grated parmesan",
+                    "2 garlic cloves, minced",
+                    "1 tsp mixed dried herbs",
+                    "½ tsp red pepper flakes",
+                    "1 tsp sugar",
+                    "¾ tsp salt",
+                    "½ tsp pepper"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Broccoli",
+                    "Lemon",
+                    "Parmesan"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "Bring a large pot of water to boil and add in to broccoli, cook for 2 minutes and remove with slotted spoon.",
+                    "Add salt to boiling water and cook pasta according to packet directions, removing 1 cup of pasta water before draining.",
+                    "Place all pasta sauce ingredients in a jar with a lid along with a ½ cup of pasta water and shake well.",
+                    "Add pasta, broccoli, shredded cheese and sauce back to the cooking pot, stir vigorously, garnish with salt and pepper and serve."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "Any short pasta is fine, macaroni, twirls, penne, ziti, orecchiette etc."
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Broccoli Lemon Pasta",
+            "intro": "Quick and simple broccoli pasta, works best with smaller shaped pastas. For a more delicious and complex pasta, try the broccoli miso pasta variant.",
+            "vego": true,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "20 minutes",
+            "cook_time": "20 minutes",
+            "reference": "https://www.recipetineats.com/quick-broccoli-pasta/"
+        }
+}
