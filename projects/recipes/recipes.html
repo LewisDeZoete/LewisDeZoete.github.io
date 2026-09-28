@@ -6,10 +6,11 @@
 
     <title>Recipe collection</title>
 
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/assets/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/nav.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/css/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="/projects/recipes/assets/css/recipes.css"/>
   </head>
 
   <body data-page="projects">
@@ -21,8 +22,16 @@
       <!-- Back link -->
       <a href="/projects.html" class="back-link">← Back to projects</a>
 
+
       <h1>Recipe Collection</h1>
       <!-- <input type="text" placeholder="This doesn't work yet..."> -->
+
+      <!-- Search bar -->
+      <div class="search-bar">
+        <input id="search-bar" type="text" name="search"
+              onkeyup="search_recipes()" placeholder="🔍 Start typing to search...">
+      </div>
+
       <h2>Savory</h2>
       <!-- Placeholder for a simple table containing links to articles -->
       <table class="recipe-table" data-group="savory">
