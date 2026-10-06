@@ -33,7 +33,7 @@ The json file is structured as follows (structure may, and should change to bett
                     },
                     ...
                 ]
-        }
+            }
         },
         {
             "workout_info": ...

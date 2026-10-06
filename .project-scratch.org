@@ -10,6 +10,11 @@ I've managed to get the workout pages working properly! There's some tidying up 
   - [ ] Add relevant links to pan seared chicken in [[file:projects/recipes/assets/data/savory/Chicken_pasta_salad.json][chicken pasta salad recipe]]
 - [ ] Working [[file:contact.html][contact page]]
 - [X] Working search bar in recipes
+  - [ ] 'x' button in recipe search bar to remove any text
+- [ ] REMOVE REDUNDANT
+  - =projects/workouts/assets/data/main=
+  - =projects/workouts/assets/data/strengthen=
+  
 
 *** Build pages
 - [ ] [[file:projects/poseoff/poseoff.html][PoseOFF page]]
