@@ -174,6 +174,17 @@
                 "Eggs",
                 "Protein powder"
             ]
+        },
+        {
+            "recipe_filename": "Protein_oat_slice.json",
+            "title": "Protein oat slice",
+            "key_ingredients": [
+                "Protein powder",
+                "Nut butter",
+                "Rolled oats",
+                "Syrup",
+                "Chocolate chips"
+            ]
         }
     ]
 }
