@@ -1,0 +1,61 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "1 cup nut butter (approx one jar)",
+                    "½ maple syrup or honey",
+                    "2 scoops protein powder",
+                    "1½ cups rolled oats",
+                    "100g chocolate chips"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Protein powder",
+                    "Nut butter",
+                    "Rolled oats",
+                    "Syrup",
+                    "Chocolate chips"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "Add nut butter and maple syrup or honey into a bowl and microwave for 30 seconds.",
+                    "In a large mixing bowl, combine protein powder, rolled oats and chocolate chips.",
+                    "Pour nut butter and syrup mix over dry ingredients and mix thoroughly.",
+                    "Press firmly into a baking paper lined baking tray and refridgerate for 1-2 hours until firm.",
+                    "Cut into 16 slices and enjoy chilled."
+                ]
+            }
+        ],
+    "notes":
+        [
+            "You can skip the chocolate chips, or replace with dried fruit."
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Protein oat slice",
+            "intro": "A tasty and (relatively) healthy protein powder oat slice. Delicious as a dessert served with yoghurt!",
+            "vego": true,
+            "vegan": true,
+            "serves": 16,
+            "prep_time": "10 minutes",
+            "cook_time": "0 minutes",
+            "reference": "https://topathlete.com.au/blogs/recipes/chocolate-nut-butter-protein-bars"
+        }
+}
