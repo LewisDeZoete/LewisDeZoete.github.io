@@ -2,12 +2,13 @@
 
 * Creating new recipes
 
-1. Switch to the =dev= branch.
+1. Switch to the =add_recipe= branch.
 2. Copy the =/projects/recipes/assets/templates/json_template.json= to either with an appropriate name:
    - =/projects/recipes/assets/data/sweet=
    - =/projects/recipes/assets/data/savory=
     e.g. =/projects/recipes/assets/data/savory/Beef_salad.json=.
-*NOTE:* the file =/projects/recipes/assets/data/recipe_index.json= is automatically updated when you push to dev. Create a PR on GitHub to merge it to main.
+*NOTE:* the file =/projects/recipes/assets/data/recipe_index.json= is automatically updated when you push to either the add_recipe or dev. After the GitHub workflow has run, pull from the add_recipe origin, merge main -> add recipe, checkout main, merge add_recipe -> main, then push both.
+Alternatively, create a PR on GitHub to merge it to main.
 
 * Filling out the recipe_name.json
 1. First fill out the ingredients section. This is a list of dictionaries, each with the keys "section" an "items". The "items" is a list of strings representing the ingredients.
