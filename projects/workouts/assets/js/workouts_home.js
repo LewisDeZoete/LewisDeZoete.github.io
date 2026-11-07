@@ -13,7 +13,7 @@ async function get_all_workouts() {
         for (const { workout_info, _ } of data[workout_type]) {
 
             const link = document.createElement("a");
-            link.href = `/projects/workouts/partials/workout_page.html?type=${workout_type}&file=${workout_info.title}`;
+            link.href = `/projects/workouts/partials/workout_page.html?type=${workout_type}&file=${workout_info.title.replaceAll(" ", "_")}`;
             link.textContent = workout_info.title
 
             // --- Add link ---

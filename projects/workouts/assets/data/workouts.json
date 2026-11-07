@@ -5,7 +5,7 @@
             {
                 "title": "legs",
                 "workout_type": "main",
-                "description": "Workout your legs, focusing on quads, hamstrings, glutes and calves."
+                "description": "Quads, hamstrings, glutes and calves."
             },
             "workout_data": {
                 "exercises": [
@@ -102,7 +102,7 @@
             {
                 "title": "push",
                 "workout_type": "main",
-                "description": "Workout your upper body, focusing on triceps, chest, forearms and back."
+                "description": "Triceps, chest, forearms and back."
             },
             "workout_data": {
                 "exercises": [
@@ -202,7 +202,7 @@
             {
                 "title": "pull",
                 "workout_type": "main",
-                "description": "Workout your upper body, focusing on biceps, traps, shoulders and back."
+                "description": "Biceps, traps, shoulders and back."
             },
             "workout_data": {
                 "exercises": [
@@ -313,7 +313,7 @@
             }
         }
     ],
-    "strengthen": [
+    "strengthening": [
         {
             "workout_info":
             {
@@ -391,6 +391,114 @@
                         "exercise": "Deep Lateral Lunges",
                         "reps": "8-10 per leg",
                         "desc": "Start with feet hip-width apart, chest lifted, step with one leg to your side and bend your other leg under you to support. Keep your bent knee aligned with that foot, then push off with this leg to return to the starting position."
+                    }
+                ]
+            }
+        },
+
+        {
+            "workout_info":
+            {
+                "title": "bodyweight strengthening",
+                "workout_type": "strengthen",
+                "description": "Whole body workout - no equipment needed."
+            },
+            "workout_data": {
+                "exercises":
+                [
+                    {
+                        "exercise": "Hindu Squat",
+                        "reps": "20/failure",
+                        "desc": "Heels a few centimeters apart, toes turned outward, drop glutes down below knee bend torso forward. As many reps as you can."
+                    },
+                    {
+                        "exercise": "Kettlebell flow",
+                        "reps": "20/failure",
+                        "desc": "Timed kettlebell workout, stringing together clean and push press, swings etc."
+                    },
+                    {
+                        "exercise": "Dagestan",
+                        "reps": "20/failure"
+                    },
+                    {
+                        "exercise": "Farmers walks",
+                        "reps": "20/failure"
+                    },
+                    {
+                        "exercise": "Resistance band work",
+                        "reps": "20/failure"
+                    }
+                ],
+                "stretches":
+                [
+                    {
+                        "exercise": "Standing Quad Stretch",
+                        "reps": "30s x 2",
+                        "desc": "Stand on one leg, pull the other heel toward your glutes."
+                    },
+                    {
+                        "exercise": "Standing Quad Stretch",
+                        "reps": "30s x 2",
+                        "desc": "Stand on one leg, pull the other heel toward your glutes."
+                    }
+                ]
+            }
+        }
+        
+    ],
+    "mobility": [
+        {
+            "workout_info":
+            {
+                "title": "shoulders",
+                "workout_type": "mobility",
+                "description": "Never dislocate your shoulder again!"
+            },
+            "workout_data": {
+                "exercises": [
+                    {
+                        "exercise": "Standing arm swings",
+                        "reps": "60 seconds",
+                        "desc": "Stand tall with arms by your sides, engage core and swing arms above the head without shrugging, then return and repeat."
+                    },
+                    {
+                        "exercise": "Shoulder pass-through",
+                        "reps": "10",
+                        "desc": "Overhand grip a stick, arms wider than shoulder-width, raise stick above head, hold, then return."
+                    },
+                    {
+                        "exercise": "High-to-low rows",
+                        "reps": "10x3 per arm",
+                        "desc": "Overhand grip a stick, arms wider than shoulder-width, raise stick above head, hold, then return."
+                    },
+                    {
+                        "exercise": "Reverse fly",
+                        "reps": "10x3",
+                        "desc": "Hold dumbbell in each hand, standing with feet shoulder width and back straight, raise arms and squeeze shoulder blades together at the apex, then return."
+                    }
+                    
+                ]
+            }
+        },
+        
+        {
+            "workout_info":
+            {
+                "title": "yoga",
+                "workout_type": "strengthening",
+                "description": "A series of yoga routines found on the internet."
+            },
+            "workout_data": {
+                "exercises": [
+                    {
+                        "exercise": "Hips and Core",
+                        "reps": "1",
+                        "desc": "link:https://www.youtube.com/watch?v=dcqW72d5JjI"
+                    },
+                    {
+                        "exercise": "Abs and Core",
+                        "reps": "1",
+                        "desc": "link:https://www.youtube.com/watch?v=kg07a-mgmlI"
                     }
                 ]
             }

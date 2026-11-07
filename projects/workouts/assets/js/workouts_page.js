@@ -24,7 +24,12 @@ async function loadWorkout(workout_type, workout_area) {
     const workout_type_arr = data[workout_type]
 
     // Get the workout corresponding to workout_type and workout_area
-    let workout = workout_type_arr.find((ele) => ele.workout_info.title === workout_area) ?? {};
+    let workout = workout_type_arr.find((ele) => ele.workout_info.title.replaceAll(" ", "_") === workout_area) ?? {};
+    // Safeguard if json workout data is empty
+    if (!workout.workout_info) {
+        document.querySelector("#workout").titleContent = "Workout not found.";
+        return;
+    }
     
 
     // Title
@@ -45,7 +50,7 @@ async function loadWorkout(workout_type, workout_area) {
         const tbody = table.querySelector("tbody");
 
         // Add the content to the tables!
-        populateTables(workout_data_list, tbody, workout.workout_info.title)
+        populateTables(workout_data_list, tbody, workout.workout_info.title.replaceAll(" ", "_"))
 
         // Event listener for clicks on the main rows!
         table.addEventListener("click", (e) => {
@@ -67,7 +72,7 @@ async function loadWorkout(workout_type, workout_area) {
     });
 }
 
-async function populateTables(workout_data_list, tbody, title) {
+function populateTables(workout_data_list, tbody, title) {
     workout_data_list.forEach((item, index) => {
         const id = `${title}-${index}`
 
@@ -96,7 +101,24 @@ async function populateTables(workout_data_list, tbody, title) {
 
         // Details description cell
         const detailsDesc = document.createElement("td");
-        detailsDesc.textContent = item.desc;
+
+        if (typeof item.desc === "string" && item.desc.startsWith("link:")) {
+            const url = item.desc.slice(5).trim(); // remove "link:" prefix
+
+            if (isSafeUrl(url)) {
+                const a = document.createElement("a");
+                a.href = url;
+                a.textContent = url;
+                a.target = "_blank";
+                a.rel = "noopener noreferrer";
+                detailsDesc.appendChild(a);
+            } else {
+                detailsDesc.textContent = item.desc; // fall back to plain text
+            }
+        } else {
+            detailsDesc.textContent = item.desc;
+        }
+
         // Image cell
         const imageCell = document.createElement("td");
         const img = document.createElement("img");
@@ -112,6 +134,15 @@ async function populateTables(workout_data_list, tbody, title) {
         // Add new rows to table body!
         tbody.append(mainRow, detailRow);
     });
+}
+
+function isSafeUrl(url) {
+    try {
+        const parsed = new URL(url, window.location.href);
+        return ["http:", "https:"].includes(parsed.protocol);
+    } catch {
+        return false;
+    }
 }
 
 function toggleRow(table, row) {
