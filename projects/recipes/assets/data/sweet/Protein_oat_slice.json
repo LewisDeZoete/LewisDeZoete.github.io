@@ -6,7 +6,7 @@
                 "items": [
                     "1 cup nut butter (approx one jar)",
                     "½ cup maple syrup or honey",
-                    "2½ scoops protein powder",
+                    "¾ cup protein powder",
                     "2 cups rolled oats",
                     "100g chocolate chips"
                 ]
@@ -41,10 +41,10 @@
         ],
     "macros":
         {
-            "cal": "97",
-            "protein": "15g",
-            "carb": "15g",
-            "fat": "2g",
+            "cal": "259",
+            "protein": "10g",
+            "carb": "29g",
+            "fat": "13g",
             "fiber": "3g"
         },
     "recipe_info":
@@ -56,6 +56,6 @@
             "serves": 16,
             "prep_time": "10 minutes",
             "cook_time": "0 minutes",
-            "reference": "https://topathlete.com.au/blogs/recipes/chocolate-nut-butter-protein-bars"
+            "reference": "https://www.jaroflemons.com/no-bake-oatmeal-protein-bars/#wprm-recipe-container-11358"
         }
 }
