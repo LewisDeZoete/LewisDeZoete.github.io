@@ -1,0 +1,66 @@
+{
+    "ingredients":
+        [
+            {
+                "section": "",
+                "items": [
+                    "1 Tbsp EVOO",
+                    "Half a red capsicum, sliced",
+                    "Half a red onion, diced",
+                    "400g cherry tomatoes, halved",
+                    "1 tsp cumin",
+                    "1 tsp smoked paprika",
+                    "1 tsp chili flakes",
+                    "1 tsp pepper",
+                    "1 Tbsp tomato paste",
+                    "1 Tbsp harissa paste",
+                    "½ cup water",
+                    "4 eggs",
+                    "Parsley, chopped"
+                ]
+            },
+            {
+                "section": "key_ingredients",
+                "items": [
+                    "Capsicum",
+                    "Cherry tomatoes",
+                    "Eggs"
+                ]
+            }
+        ],
+    "instructions":
+        [
+            {
+                "section": "",
+                "steps": [
+                    "Heat EVOO in a wide cast iron on a high heat, then add capsicums and cook for 3 minutes.",
+                    "Once the capsicums get a bit of color, add the red onion and let it soften, then add spices",
+                    "Add in the cherry tomatoes and cook until the skin blisters and juice releases, about 5 minutes.",
+                    "With the back of the spoon, press down on the tomatoes so the juice is released.",
+                    "Add the tomato paste and harissa, then the water and allow to simmer for about 5 minutes.",
+                    "Once the mixture thickens, create indents in the sauce and crack in the eggs.",
+                    "Cover with aluminium foil or a lid and allow eggs to cook, about 5 minutes.",
+                    "Remove lid, sprinkle parsley over the top and serve. Best enjoyed straight from the pan with bread."
+                ]
+            }
+        ],
+    "macros":
+        {
+            "cal": "97",
+            "protein": "15g",
+            "carb": "15g",
+            "fat": "2g",
+            "fiber": "3g"
+        },
+    "recipe_info":
+        {
+            "title": "Shakshuka",
+            "intro": "An inauthentic version of shakshuka that makes for a very quick weeknight meal or a tasty breakfast.",
+            "vego": true,
+            "vegan": false,
+            "serves": 4,
+            "prep_time": "10 minutes",
+            "cook_time": "20 minutes",
+            "reference": "https://www.loveandlemons.com/shakshuka-recipe/"
+        }
+}
