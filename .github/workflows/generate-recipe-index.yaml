@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - dev
+      - add_recipe
     paths:
       - 'projects/recipes/assets/data/**/*.json'
       - '.github/workflows/generate-recipe-index.yml'
